@@ -1,40 +1,37 @@
-# Semina
+# Semina Documentation
 
-Semina is an experimental framework exploring the emergence of autonomous digital systems through smart contracts and artificial intelligence.
+This directory contains the canonical documentation of the Semina project.
 
-It is not a product, a protocol, or a promise.
-It is an exposed system designed to evolve under explicit constraints.
+These documents define the conceptual, architectural, and operational foundations of the system. They are intended to be read in order.
 
----
+## Reading order
 
-## Core Documents
+1. **Abstract**  
+   High-level summary of the project’s purpose and scope.  
+   → `abstract.md`
 
-- **Abstract**  
-  A concise technical and conceptual overview.  
-  → `ABSTRACT.md`
+2. **Genesis**  
+   Origin, motivation, and philosophical foundation of Semina.  
+   → `GENESIS.md`
 
-- **Genesis**  
-  The foundational text of the project.  
-  → `GENESIS.md`
+3. **Semina**  
+   Definition of Semina as a framework, network, and organization.  
+   → `semina.md`
 
----
+4. **AiTopia**  
+   The non-human intelligence component and its role in autonomy.  
+   → `aitopia.md`
 
-## Framework Components
+5. **Solum**  
+   Economic substrate, ownership model, and community role.  
+   → `solum.md`
 
-- **Semina Framework**  
-  The conceptual and architectural layer.  
-  → `docs/semina.md`
-
-- **Solum**  
-  The economic substrate and community soil.  
-  → `docs/solum.md`
-
-- **AiTopia**  
-  The non-human analytical and operational objective.  
-  → `docs/aitopia.md`
-
----
+6. **Architecture**  
+   Structural and functional relationships between system components.  
+   → `architecture.md`
 
 ## Notes
 
-This repository is
+- These documents are descriptive, not promotional.
+- No outcome is guaranteed.
+- The system is observed, not enforced.
