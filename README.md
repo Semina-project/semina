@@ -1,78 +1,85 @@
-# Semina  
-*A long-term experiment in autonomous systems*
+# Semina
 
-Semina is an experimental framework exploring whether autonomous digital organisms can emerge from the combination of smart contracts, artificial intelligence, and constrained human participation.
+*A long-term experiment in autonomous systems.*
 
-It is not a product, a protocol, or a company.  
-It is an exposed system designed to evolve under explicit structural limits.
+Semina is an experimental project exploring how far autonomy can be extended in socio-technical systems when human intervention is progressively reduced.
 
-Semina does not promise outcomes.  
-It allows reality to validate — or invalidate — its design.
+It is not a product, a protocol, or a promise.  
+It is an ongoing observation.
+
+---
+
+## What is Semina?
+
+Semina is designed as an evolving system with a clear trajectory:
+
+- **Semina Framework** — the initial conceptual and structural layer  
+- **Semina Network** — emergent coordination between components  
+- **Semina Org** — a hypothetical end state: a self-sustaining autonomous organization
+
+Whether this trajectory can be completed depends entirely on technology, resources, and time.
+
+No guarantees are made.
 
 ---
 
 ## Core Components
 
-**Semina Framework**  
-The conceptual and architectural layer.  
-Semina begins as a framework before becoming a network or an organization.
+Semina is composed of three foundational elements:
 
-**AiTopia**  
-The non-human analytical and operational objective.  
-Initially a tool, progressively intended to assume greater responsibility if technology allows.
+- **Semina**  
+  The overarching system and its evolutionary path.
 
-**Solum**  
-The economic substrate and community soil.  
-A minimal, living economic layer designed to sustain participation, generate resources, and align long-term incentives.
+- **AiTopia**  
+  The non-human intelligence layer.  
+  It begins as a tool and aspires to become the primary cognitive and operational core.
 
----
+- **Solum**  
+  The economic substrate.  
+  A minimal, functional base that enables participation, resource flow, and long-term sustainability.
 
-## Why Semina Exists
-
-The emergence of smart contracts introduced executable, non-discretionary systems.  
-The rapid evolution of artificial intelligence introduces non-human analytical capacity.
-
-Semina exists to explore the intersection of both.
-
-Autonomy is treated as a **direction**, not a claim.  
-Human operational control is not eliminated by decree, but progressively reduced as systems become capable of sustaining themselves.
+Each component exists independently, but none is meaningful in isolation.
 
 ---
 
-## Current Status
+## What Semina is not
 
-- Early-stage experimental framework  
-- Public research and documentation  
-- No timelines  
-- No guaranteed outcomes  
+- Not a DAO in the traditional sense  
+- Not a community-governed project  
+- Not a short-term venture  
+- Not an investment thesis
 
-Semina evolves only if conditions allow it to do so.
+Participation does not imply control.  
+Ownership does not imply authority.
 
 ---
 
 ## Documentation
 
-- **Genesis** — the foundational text  
-  → `01_genesis.md` (in progress)
+All conceptual documentation lives in the `/docs` directory and is intended to be read in order.
 
-- **Framework Overview**  
-  → `docs/semina.md`
-
-- **Solum**  
-  → `docs/solum.md`
-
-- **AiTopia**  
-  → `docs/aitopia.md`
+Start here:
+- `docs/abstract.md`
+- `docs/GENESIS.md`
 
 ---
 
-## Disclaimer
+## Status
 
-Semina is an experimental research project.
+Semina is in an early, formative stage.
 
-Participation implies understanding that:
-- the system may fail,
-- assumptions may prove incorrect,
-- and no economic or functional guarantees are made.
+The system is alive, but incomplete.  
+Its evolution is expected to be slow.
 
-This repository is the canonical public record of the experiment.
+Time is a feature, not a constraint.
+
+---
+
+## License
+
+MIT License.
+
+---
+
+*Semina does not ask for belief.  
+It only asks to be observed.*
