@@ -15,9 +15,9 @@ It is an ongoing observation.
 
 ---
 
-## The trajectory
+## Direction
 
-Semina is designed as an evolving system with a clear direction:
+Semina is designed as an evolving system with a clear trajectory:
 
 **Semina Framework**  
 The initial conceptual and structural layer.
@@ -38,47 +38,28 @@ No guarantees are made.
 
 ## Core elements
 
-Semina exists through the interaction of three foundational components.
+Semina exists through the interaction of three foundational components:
 
-### Semina  
-The system itself.  
-Its structure, direction, and long-term intent.
-
-### AiTopia  
-The non-human intelligence layer.  
-It begins as a tool  
-and aspires to become the primary cognitive and operational core.
-
-### Solum  
-The economic substrate.  
-The minimal ground layer that enables participation,  
-resource flow, and long-term sustainability.
+- **Semina** — the system and its evolutionary intent  
+- **AiTopia** — the non-human intelligence layer  
+- **Solum** — the economic substrate and ground of participation  
 
 Each component can exist independently,  
 but none is meaningful in isolation.
 
 ---
 
-## What Semina is not
-
-- It is not a traditional DAO  
-- It is not community-governed  
-- It is not a short-term venture  
-- It is not an investment thesis  
-
-Participation does not imply control.  
-Ownership does not imply authority.
-
----
-
 ## Documentation
 
-All conceptual documentation lives in `/docs`  
-and is intended to be read sequentially.
+The project is defined through its documentation.  
+All conceptual material lives in `/docs` and is intended to be read in order.
 
-**Recommended starting points:**
-- `docs/abstract.md`
-- `docs/GENESIS.md`
+- [Abstract](docs/abstract.md)
+- [Genesis](docs/GENESIS.md)
+- [Semina Framework](docs/semina.md)
+- [Solum](docs/solum.md)
+- [AiTopia](docs/aitopia.md)
+- [Architecture](docs/architecture.md)
 
 ---
 
