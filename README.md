@@ -44,10 +44,10 @@ Each component exists independently, but none is meaningful in isolation.
 
 ## What Semina is not
 
-- Not a DAO in the traditional sense  
+- Not a traditional DAO  
 - Not a community-governed project  
 - Not a short-term venture  
-- Not an investment thesis
+- Not an investment thesis  
 
 Participation does not imply control.  
 Ownership does not imply authority.
@@ -56,26 +56,32 @@ Ownership does not imply authority.
 
 ## Documentation
 
-All conceptual documentation lives in the `/docs` directory and is intended to be read sequentially.
+All conceptual documentation lives in the `/docs` directory  
+and is intended to be read sequentially.
 
-**Core documents:**
-- [`docs/abstract.md`](docs/abstract.md)
-- [`docs/GENESIS.md`](docs/GENESIS.md)
+### Core documents
+- [`abstract.md`](docs/abstract.md)
+- [`GENESIS.md`](docs/GENESIS.md)
 
-**Extended conceptual material:**
-- [`docs/SOLUM.md`](docs/SOLUM.md)
-- [`docs/AITOPIA.md`](docs/AITOPIA.md)
-- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+### System components
+- [`semina.md`](docs/semina.md)
+- [`aitopia.md`](docs/aitopia.md)
+- [`solum.md`](docs/solum.md)
+
+### Architecture & mechanics
+- [`architecture.md`](docs/architecture.md)
+- [`solum-contract.md`](docs/solum-contract.md)
 
 ---
 
 ## Smart Contract
 
-- **Solum Token (Base / Uniswap V2)**
-  - Source code: [`contract/SolumToken.sol`](contract/SolumToken.sol)
+- **Solum Token (Base / Uniswap V2)**  
+  See: [`docs/solum-contract.md`](docs/solum-contract.md)
 
 The contract is published for transparency and auditability.  
-It is intended to operate as an autonomous economic substrate within the Semina framework.
+It is intended to operate as an autonomous economic substrate  
+within the Semina framework.
 
 ---
 
