@@ -56,11 +56,26 @@ Ownership does not imply authority.
 
 ## Documentation
 
-All conceptual documentation lives in the `/docs` directory and is intended to be read in order.
+All conceptual documentation lives in the `/docs` directory and is intended to be read sequentially.
 
-Start here:
-- `docs/abstract.md`
-- `docs/GENESIS.md`
+**Core documents:**
+- [`docs/abstract.md`](docs/abstract.md)
+- [`docs/GENESIS.md`](docs/GENESIS.md)
+
+**Extended conceptual material:**
+- [`docs/SOLU M.md`](docs/SOLUM.md)
+- [`docs/AITOPIA.md`](docs/AITOPIA.md)
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+
+---
+
+## Smart Contract
+
+- **Solum Token (Base / Uniswap V2)**
+  - Source code: [`contract/SolumToken.sol`](contract/SolumToken.sol)
+
+The contract is published for transparency and auditability.  
+It is intended to operate as an autonomous economic substrate within the Semina framework.
 
 ---
 
@@ -81,5 +96,5 @@ MIT License.
 
 ---
 
-*Semina does not ask for belief.  
-It only asks to be observed.*
+*Semina does not ask for belief.*  
+*It only asks to be observed.*
