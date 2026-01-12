@@ -252,6 +252,3 @@ contract Solum is IERC20 {
      */
 
 }
-
-
-
