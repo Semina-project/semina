@@ -1,37 +1,66 @@
 # Semina Documentation
 
-This directory contains the canonical documentation of the Semina project.
+This directory contains the complete conceptual documentation of the Semina project.
 
-These documents define the conceptual, architectural, and operational foundations of the system. They are intended to be read in order.
+The documents are not specifications.  
+They are not commitments.  
+They are observations.
 
-## Reading order
+Each file explores a specific layer of the system and its evolution toward autonomy.
 
-1. **Abstract**  
-   High-level summary of the project’s purpose and scope.  
-   → `abstract.md`
+Reading order matters.
 
-2. **Genesis**  
-   Origin, motivation, and philosophical foundation of Semina.  
-   → `GENESIS.md`
+---
 
-3. **Semina**  
-   Definition of Semina as a framework, network, and organization.  
-   → `semina.md`
+## Recommended reading order
 
-4. **AiTopia**  
-   The non-human intelligence component and its role in autonomy.  
-   → `aitopia.md`
+### 1. Foundations
 
-5. **Solum**  
-   Economic substrate, ownership model, and community role.  
-   → `solum.md`
+- **Abstract**  
+  High-level overview of the project’s intent and scope.  
+  → [`abstract.md`](abstract.md)
 
-6. **Architecture**  
-   Structural and functional relationships between system components.  
-   → `architecture.md`
+- **Genesis**  
+  Conceptual origin and initial conditions of Semina.  
+  → [`GENESIS.md`](GENESIS.md)
+
+---
+
+### 2. Core System
+
+- **Semina**  
+  The framework, its trajectory, and long-term direction.  
+  → [`semina.md`](semina.md)
+
+- **AiTopia**  
+  The non-human intelligence layer and autonomy horizon.  
+  → [`aitopia.md`](aitopia.md)
+
+- **Solum**  
+  The economic substrate and participation layer.  
+  → [`solum.md`](solum.md)
+
+---
+
+### 3. Architecture & Mechanics
+
+- **Architecture**  
+  Structural relationships between components.  
+  → [`architecture.md`](architecture.md)
+
+- **Solum Contract**  
+  Reference documentation for the Solum smart contract.  
+  → [`solum-contract.md`](solum-contract.md)
+
+---
 
 ## Notes
 
-- These documents are descriptive, not promotional.
-- No outcome is guaranteed.
-- The system is observed, not enforced.
+- Documentation is expected to evolve over time.
+- No document represents a final state.
+- Changes reflect observation, not optimization.
+
+---
+
+This documentation does not aim to convince.  
+It exists to be read, questioned, and observed.
