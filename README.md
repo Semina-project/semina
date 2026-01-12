@@ -63,7 +63,7 @@ All conceptual documentation lives in the `/docs` directory and is intended to b
 - [`docs/GENESIS.md`](docs/GENESIS.md)
 
 **Extended conceptual material:**
-- [`docs/SOLU M.md`](docs/SOLUM.md)
+- [`docs/SOLUM.md`](docs/SOLUM.md)
 - [`docs/AITOPIA.md`](docs/AITOPIA.md)
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
 
