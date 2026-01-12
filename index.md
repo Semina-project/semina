@@ -4,62 +4,117 @@
 
 ---
 
-Semina is an experimental project exploring how far autonomy can be extended  
-in socio-technical systems when human intervention is progressively reduced.
-
-It is not a product.  
+Semina is not a product.  
 It is not a protocol.  
 It is not a promise.
 
-It is an ongoing observation.
+Semina is an experiment.
+
+An attempt to observe how far autonomy can be extended  
+when human intervention is progressively reduced.
+
+No roadmap is guaranteed.  
+No outcome is assumed.
+
+Only direction.
 
 ---
 
-## Direction
+## An experiment, not a thesis
 
-Semina is designed as an evolving system with a clear trajectory:
+Most systems are designed backwards:  
+they begin with goals, governance, incentives, and control.
 
-**Semina Framework**  
-The initial conceptual and structural layer.
+Semina begins with none of those.
 
-**Semina Network**  
-Emergent coordination between autonomous components.
+It begins with a question:
 
-**Semina Org**  
-A hypothetical end state:  
-a self-sustaining autonomous organization.
+**What happens if a system is allowed to grow  
+toward autonomy instead of being forced into it?**
 
-Whether this trajectory can be completed  
+---
+
+## The trajectory
+
+Semina follows a simple but demanding path:
+
+**Framework → Network → Organization**
+
+- **Semina Framework**  
+  The conceptual and structural foundation.
+
+- **Semina Network**  
+  Emergent coordination between autonomous components.
+
+- **Semina Org**  
+  A hypothetical end state:  
+  a self-sustaining autonomous organization.
+
+Whether this trajectory is achievable  
 depends entirely on technology, resources, and time.
 
-No guarantees are made.
+There are no guarantees.
 
 ---
 
-## Core elements
+## Three foundational elements
 
-Semina exists through the interaction of three foundational components:
+Semina exists through the interaction of three components.
 
-- **Semina** — the system and its evolutionary intent  
-- **AiTopia** — the non-human intelligence layer  
-- **Solum** — the economic substrate and ground of participation  
+### Semina  
+The system itself.  
+Its structure, direction, and long-term intent.
 
-Each component can exist independently,  
-but none is meaningful in isolation.
+### AiTopia  
+The non-human intelligence layer.  
+It begins as a tool  
+and aspires to become the primary cognitive  
+and operational core of the system.
+
+### Solum  
+The economic substrate.  
+The minimal ground layer that enables participation,  
+resource flow, and long-term sustainability.
+
+Each component can exist independently.  
+None is meaningful in isolation.
+
+---
+
+## What Semina is not
+
+Semina deliberately rejects familiar structures.
+
+It is not:
+- a traditional DAO  
+- a community-governed project  
+- a startup or short-term venture  
+- an investment thesis  
+
+Participation does not imply control.  
+Ownership does not imply authority.
 
 ---
 
 ## Documentation
 
-The project is defined through its documentation.  
-All conceptual material lives in `/docs` and is intended to be read in order.
+This site hosts the conceptual documentation of Semina.
 
+All documents are written as part of an ongoing observation  
+and are intended to be read sequentially.
+
+### Start here
 - [Abstract](docs/abstract.md)
 - [Genesis](docs/GENESIS.md)
-- [Semina Framework](docs/semina.md)
-- [Solum](docs/solum.md)
+
+### System components
+- [Semina](docs/semina.md)
 - [AiTopia](docs/aitopia.md)
+- [Solum](docs/solum.md)
+
+### Architecture & mechanics
 - [Architecture](docs/architecture.md)
+- [Solum Contract](docs/solum-contract.md)
 
 ---
 
@@ -67,10 +122,13 @@ All conceptual material lives in `/docs` and is intended to be read in order.
 
 Semina is in an early formative stage.
 
-The system is alive, but incomplete.  
+The system is alive,  
+but incomplete.
+
 Its evolution is expected to be slow.
 
-Time is a feature, not a constraint.
+Time is not a constraint.  
+It is a feature.
 
 ---
 
