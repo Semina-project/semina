@@ -253,8 +253,5 @@ contract Solum is IERC20 {
 
 }
 
-Disclaimer
-Interacting with this contract involves risk. No guarantees are provided regarding value, performance, or outcomes.
-Users are responsible for reviewing the code and understanding its behavior.
 
 
