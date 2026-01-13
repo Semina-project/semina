@@ -3,10 +3,10 @@
 Solum exists for one reason: to turn early participation into aligned liquidity, not hype.
 
 This first phase is deliberately simple:
-- a taxed token on trades
+- a taxed token on value movements
 - a public DEX pool
 - a predictable flow of value inside the system (burn, reflections, liquidity, treasury)
-- and a launch design where the earliest participants can access the pool with minimal friction.
+- and a launch design where the earliest participants can access the system with minimal friction.
 
 This is not a promise of profit.  
 It’s a mechanism with clear rules.
@@ -29,7 +29,14 @@ It’s a token engineered to *stay on-chain and functional*, not to “tell a st
 
 ## 2) Why the contract uses taxes
 
-The contract applies a trade tax (only on DEX buys/sells), split into four flows:
+Solum applies taxes to all meaningful value movements within the system.
+
+This includes:
+- buys from the DEX pool
+- sells to the DEX pool
+- and direct transfers between addresses
+
+The tax is split into four flows:
 
 - **Burn (10%)**  
   Reduces supply over time. This is a one-way sink.  
@@ -37,32 +44,58 @@ The contract applies a trade tax (only on DEX buys/sells), split into four flows
 
 - **Reflections (2.45%)**  
   Distributes value to holders automatically.  
-  The intent is to reward alignment (holding) rather than churn (trading).
+  The intent is to reward alignment (holding) rather than circulation for its own sake.
 
 - **Liquidity (2.45%)**  
-  Feeds the pool. More liquidity generally means lower volatility, better execution, and less fragility.
+  Feeds the pool continuously.  
+  This reinforces depth, reduces fragility, and stabilizes the participation layer.
 
 - **Treasury (0.10%)**  
-  A tiny operational stream to sustain infrastructure and future steps without relying on constant fundraising.
+  A minimal operational stream to sustain development and infrastructure.
 
-**Total tax: 15%** on DEX buys/sells.
+**Total tax: 15%** on value-changing movements.
 
 This is not “a fee to the team”.  
-It is the token funding its own survival.
+It is the system reinforcing itself every time Solum changes hands.
 
 ---
 
-## 3) Why taxes only on DEX trades
+## 3) Why transfers are also taxed
 
-Solum is designed for actual pool dynamics, not for punishing simple transfers.
+Solum is not designed as a token that needs to move constantly.
 
-That’s why the limits and taxes are meant to apply to:
-- buys from the pool
-- sells to the pool
+Its name is not accidental.
 
-Normal transfers can remain clean and functional (depending on final config).
+Solum represents ground.  
+Ground is held, not circulated.
 
-This keeps the token usable while still enforcing the economic design on the market layer.
+A transfer in Solum is not a neutral action.  
+It represents a change of custody — a reassignment of participation.
+
+Taxing transfers serves three purposes:
+
+- **Prevents manipulation through artificial movement**  
+  Untaxed transfers allow supply reshuffling, proxy accumulation,
+  and indirect market manipulation without ever touching the pool.
+
+- **Protects the meaning of holding**  
+  Holding Solum is participation.  
+  Moving it implies leaving that position or passing it to someone else.
+
+- **Discourages unnecessary churn**  
+  Solum is not optimized for frictionless circulation.  
+  It is optimized for stability, alignment, and presence.
+
+If Solum moves, it is because something has changed.  
+And when something changes, the system accounts for it.
+
+This design favors:
+- holders over movers
+- alignment over optimization
+- participation over manipulation
+
+Solum does not punish holding.  
+It simply makes movement intentional.
 
 ---
 
@@ -145,7 +178,7 @@ This is not for you if you:
 If you’re reading this trying to decide whether Solum is a good participation opportunity, ask yourself:
 
 1) Do I understand DEX pools and early-stage volatility?  
-2) Do I prefer a system with mechanical sinks/sources (burn/reflections/liquidity) over pure speculation?  
+2) Do I prefer a system with mechanical sinks/sources (burn, reflections, liquidity) over pure speculation?  
 3) Am I ok with uncertainty and long timelines?  
 4) Does the idea of early pool access align with my risk tolerance?  
 5) Am I interested in participating early, even if speculation takes time to arrive?
