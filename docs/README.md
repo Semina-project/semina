@@ -1,66 +1,97 @@
-# Semina Documentation
+# Documentation — Semina / Solum
 
-This directory contains the complete conceptual documentation of the Semina project.
+This documentation describes an ecosystem in formation.
 
-The documents are not specifications.  
-They are not commitments.  
-They are observations.
+Not a product roadmap.  
+Not a marketing narrative.  
+A set of mechanisms, constraints, and intentions.
 
-Each file explores a specific layer of the system and its evolution toward autonomy.
-
-Reading order matters.
-
----
-
-## Recommended reading order
-
-### 1. Foundations
-
-- **Abstract**  
-  High-level overview of the project’s intent and scope.  
-  → [`abstract.md`](abstract.md)
-
-- **Genesis**  
-  Conceptual origin and initial conditions of Semina.  
-  → [`GENESIS.md`](GENESIS.md)
+At this stage, **Solum** is the primary operational layer.
+**Semina** is the direction toward which everything converges.
 
 ---
 
-### 2. Core System
+## How to read this documentation
 
-- **Semina**  
-  The framework, its trajectory, and long-term direction.  
-  → [`semina.md`](semina.md)
+If you are here to understand **Solum**, start at the top.  
+If you are here to understand **Semina**, read everything — in order.
 
-- **AiTopia**  
-  The non-human intelligence layer and autonomy horizon.  
-  → [`aitopia.md`](aitopia.md)
-
-- **Solum**  
-  The economic substrate and participation layer.  
-  → [`solum.md`](solum.md)
+This documentation is written for participants, not spectators.
 
 ---
 
-### 3. Architecture & Mechanics
+## Solum Token (Entry Layer)
 
-- **Architecture**  
-  Structural relationships between components.  
-  → [`architecture.md`](architecture.md)
+Solum is the first accessible layer of the system.
+It is where participation begins.
 
-- **Solum Contract**  
-  Reference documentation for the Solum smart contract.  
-  → [`solum-contract.md`](solum-contract.md)
+Solum is:
+- a token deployed directly into a public DEX pool
+- governed by mechanical rules (taxes, burns, liquidity, treasury)
+- designed for early participation, not speculative extraction
+- intentionally constrained to reduce privilege and asymmetry
+
+Solum Phase 1 is where:
+- access is structurally cheap
+- participation precedes speculation
+- early mistakes are survivable
+- and alignment matters more than timing
+
+### Core Solum documents
+
+- **Solum — Phase 1 (Practical Overview)**  
+  `solum-token-phase-1.md`  
+  → What Solum is, how it works, and who Phase 1 is for.
+
+- **Solum — On Honesty, Constraints, and the Human Factor**  
+  `solum-honesty-and-constraints.md`  
+  → Why Solum does not depend on trust, teams, or human protagonism.
+
+Together, these documents are sufficient to understand:
+- how Solum functions
+- how it can be accessed
+- and what kind of participation it invites
+
+No additional material is required to engage responsibly.
 
 ---
 
-## Notes
+## Semina (Direction Layer)
 
-- Documentation is expected to evolve over time.
-- No document represents a final state.
-- Changes reflect observation, not optimization.
+Semina is not a product that launches.
+It is a system that emerges.
+
+Semina represents:
+- autonomy over time
+- systems that outgrow human centrality
+- alignment between participation and long-term continuity
+
+Solum exists to prepare the ground.
+
+Semina is what grows when the ground is stable.
+
+At this stage, Semina is intentionally under-defined.
+Its form depends on the behavior and persistence of the system itself,
+not on promises made in advance.
 
 ---
 
-This documentation does not aim to convince.  
-It exists to be read, questioned, and observed.
+## What this documentation is not
+
+- Not a whitepaper
+- Not an investment pitch
+- Not a roadmap
+- Not a set of guarantees
+
+It is a record of intent, limits, and mechanisms.
+
+---
+
+## Status
+
+Early phase.  
+Experimental by design.  
+Transparent by constraint.
+
+Participation is optional.  
+Understanding is required.
