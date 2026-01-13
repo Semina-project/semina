@@ -3,10 +3,10 @@
 Solum exists for one reason: to turn early participation into aligned liquidity, not hype.
 
 This first phase is deliberately simple:
-- a taxed token on value movements
+- a fixed-supply token with predefined taxes
 - a public DEX pool
 - a predictable flow of value inside the system (burn, reflections, liquidity, treasury)
-- and a launch design where the earliest participants can access the system with minimal friction.
+- and a launch design where early participants can access the system with minimal friction.
 
 This is not a promise of profit.  
 It’s a mechanism with clear rules.
@@ -19,48 +19,74 @@ Solum is a token designed to live inside a DEX pool from day one.
 
 You can:
 - buy and sell it on the pool like any other token
-- hold it and receive reflections (if enabled for your address type and conditions)
-- benefit from permanent supply pressure through burns
-- and benefit from long-term pool stability via automated liquidity injection
+- hold it and receive reflections
+- benefit from permanent supply pressure through real burns
+- and benefit from long-term pool stability via liquidity reinforcement
 
 It’s a token engineered to *stay on-chain and functional*, not to “tell a story” off-chain.
 
 ---
 
-## 2) Why the contract uses taxes
+## 2) How taxes work in the frozen contract
 
-Solum applies taxes to all meaningful value movements within the system.
+Solum Phase 1 uses **different tax profiles** depending on how the token moves.
 
-This includes:
-- buys from the DEX pool
-- sells to the DEX pool
-- and direct transfers between addresses
+The contract distinguishes between:
+- buys (from the DEX pool)
+- sells (to the DEX pool)
+- transfers (wallet to wallet)
 
-The tax is split into four flows:
-
-- **Burn (10%)**  
-  Reduces supply over time. This is a one-way sink.  
-  The goal is simple: scarcity is mechanical, not narrative.
-
-- **Reflections (2.45%)**  
-  Distributes value to holders automatically.  
-  The intent is to reward alignment (holding) rather than circulation for its own sake.
-
-- **Liquidity (2.45%)**  
-  Feeds the pool continuously.  
-  This reinforces depth, reduces fragility, and stabilizes the participation layer.
-
-- **Treasury (0.10%)**  
-  A minimal operational stream to sustain development and infrastructure.
-
-**Total tax: 15%** on value-changing movements.
-
-This is not “a fee to the team”.  
-It is the system reinforcing itself every time Solum changes hands.
+Each action reinforces the system in a different way.
 
 ---
 
-## 3) Why transfers are also taxed
+### Buy (from the pool)
+
+**Total tax: 1%**
+
+- **Liquidity — 0.5%**  
+- **Treasury — 0.5%**
+
+Buys are intentionally lightweight.
+
+Early access is meant to be cheap and accessible while the pool is forming.  
+Participation is prioritised over friction at entry.
+
+---
+
+### Sell (to the pool)
+
+**Total tax: 10%**
+
+- **Burn — 4%**  
+- **Reflections — 3%**  
+- **Liquidity — 2%**  
+- **Treasury — 1%**
+
+Sells represent value extraction from the pool.
+
+For that reason, they carry the strongest reinforcement:
+- supply is reduced
+- long-term holders are rewarded
+- liquidity depth is strengthened
+- and the system sustains itself operationally
+
+---
+
+### Transfer (wallet to wallet)
+
+**Total tax: 5%**
+
+- **Burn — 2%**  
+- **Reflections — 3%**
+
+A transfer is not treated as a neutral action.
+
+It represents a **change of custody** — a reassignment of participation.
+
+---
+
+## 3) Why transfers are taxed
 
 Solum is not designed as a token that needs to move constantly.
 
@@ -69,33 +95,20 @@ Its name is not accidental.
 Solum represents ground.  
 Ground is held, not circulated.
 
-A transfer in Solum is not a neutral action.  
-It represents a change of custody — a reassignment of participation.
+Untaxed transfers would allow:
+- silent reshuffling of supply
+- indirect accumulation
+- and manipulation without ever touching the pool
 
-Taxing transfers serves three purposes:
+Taxing transfers prevents this.
 
-- **Prevents manipulation through artificial movement**  
-  Untaxed transfers allow supply reshuffling, proxy accumulation,
-  and indirect market manipulation without ever touching the pool.
-
-- **Protects the meaning of holding**  
-  Holding Solum is participation.  
-  Moving it implies leaving that position or passing it to someone else.
-
-- **Discourages unnecessary churn**  
-  Solum is not optimized for frictionless circulation.  
-  It is optimized for stability, alignment, and presence.
-
-If Solum moves, it is because something has changed.  
-And when something changes, the system accounts for it.
-
-This design favors:
-- holders over movers
-- alignment over optimization
-- participation over manipulation
+It ensures that when Solum changes hands:
+- supply is mechanically reduced
+- alignment is rewarded through reflections
+- and movement remains intentional
 
 Solum does not punish holding.  
-It simply makes movement intentional.
+It makes movement meaningful.
 
 ---
 
@@ -105,20 +118,18 @@ In the earliest phase, the system is intentionally lightweight.
 
 The practical effect is:
 - early participants enter when the pool is small and thin
-- execution can be favorable if demand later increases
-- early buys happen before the system accumulates much tax history and before market depth grows
+- buy-side friction is minimal
+- and mistakes are survivable
 
-This does **not** mean “free money”.  
+This does **not** mean “free money”.
+
 It means:
-- the initial pool is designed to be accessible
-- with low barriers
-- and with transparency about mechanics
-
-If you understand AMMs, you already know what this implies:  
-early participation is about *position*, not *promises*.
+- access is cheap by design
+- participation comes before speculation
+- and position matters more than timing
 
 Early access is not about winning fast.  
-It’s about having room to be wrong while still being early.
+It’s about having room to be early.
 
 ---
 
@@ -126,27 +137,21 @@ It’s about having room to be wrong while still being early.
 
 Phase 1 of Solum is designed around participation, not speculation.
 
-Early holders are not treated as investors betting on a price.  
+Early holders are not treated as investors betting on price.  
 They are closer to settlers entering a system at its ground level.
 
 The goal of this phase is not to extract value from the market,  
 but to *form the market itself*.
 
-Because the initial pool is intentionally accessible, early participants:
-- enter with minimal structural cost
-- are not pressured to be “right” immediately
-- can afford to be early, imperfect, and patient
+Because entry is accessible:
+- early participants can afford to be imperfect
+- pressure to be “right” immediately is reduced
+- alignment matters more than activity
 
-This matters.
+Speculation may arrive later.  
+It is not the foundation.
 
-In Solum Phase 1, the downside of being wrong is intentionally limited,  
-while the upside of being aligned is structural.
-
-Speculation may arrive later — that is a natural consequence of attention and liquidity.  
-But it is not the foundation.
-
-Holding Solum in Phase 1 is less about timing a trade  
-and more about choosing to exist inside the system while it takes shape.
+Holding Solum in Phase 1 is choosing presence over motion.
 
 A Solum holder is not a passive investor.  
 A Solum holder is a participant.
@@ -159,34 +164,31 @@ A colonist, not a tourist.
 
 Phase 1 is for people who:
 - prefer transparent rules to marketing
-- understand that liquidity matters more than hype
-- are comfortable with early-stage AMM dynamics
-- want to participate before the ecosystem becomes “expensive to enter”
+- understand early-stage AMM dynamics
+- value alignment over short-term extraction
+- want to participate before systems become expensive to enter
 - accept uncertainty as part of being early
-- see holding as participation, not as a speculative position
 
 This is not for you if you:
 - want guarantees
-- can’t tolerate volatility
-- need a team roadmap full of deadlines
+- need a roadmap full of dates
+- expect frictionless trading
 - or are looking for a typical memecoin narrative
 
 ---
 
 ## 6) The simplest decision framework
 
-If you’re reading this trying to decide whether Solum is a good participation opportunity, ask yourself:
+Before participating, ask yourself:
 
-1) Do I understand DEX pools and early-stage volatility?  
-2) Do I prefer a system with mechanical sinks/sources (burn, reflections, liquidity) over pure speculation?  
-3) Am I ok with uncertainty and long timelines?  
-4) Does the idea of early pool access align with my risk tolerance?  
-5) Am I interested in participating early, even if speculation takes time to arrive?
+1) Do I understand early-stage liquidity and volatility?  
+2) Am I comfortable with asymmetric outcomes and long timelines?  
+3) Do I value participation over constant movement?  
+4) Does cheap early access align with my risk tolerance?
 
-If your answers are mostly “yes”, Solum Phase 1 is at least coherent for you.
+If your answers are mostly “yes”, Solum Phase 1 is coherent for you.
 
-If not, the best move is to wait.  
-Watching is also participation.
+If not, waiting is also participation.
 
 ---
 
@@ -194,14 +196,14 @@ Watching is also participation.
 
 Phase 1 is the foundation layer.
 
-The long-term goal is that Solum is not alone:
-- it becomes one piece of a larger system
-- where Semina and Aitopia converge over time
-- and where community access remains structurally fair
+Over time:
+- Solum becomes one part of a larger system
+- Semina builds on top of that ground
+- and human intervention gradually fades
 
-But none of that matters if Phase 1 is not honest and stable.
+None of that matters if Phase 1 is not honest and stable.
 
-So Phase 1 stays practical:  
+So Phase 1 stays practical:
 pool, rules, mechanics, transparency.
 
 ---
@@ -211,4 +213,4 @@ pool, rules, mechanics, transparency.
 Solum is experimental. Crypto is high-risk.  
 Nothing here is financial advice or a guarantee of outcomes.
 
-If you participate, do it because you understand the mechanism — not because you were promised a result.
+Participate only if you understand the mechanism — not because you expect a result.
