@@ -1,8 +1,5 @@
 # Semina
-
 *A long-term experiment in autonomous systems.*
-
----
 
 Semina is not a product.  
 It is not a protocol.  
@@ -10,27 +7,26 @@ It is not a promise.
 
 Semina is an experiment.
 
-An attempt to observe how far autonomy can be extended  
+An attempt to observe how far autonomy can be extended
 when human intervention is progressively reduced.
 
 No roadmap is guaranteed.  
-No outcome is assumed.
-
+No outcome is assumed.  
 Only direction.
 
 ---
 
 ## An experiment, not a thesis
 
-Most systems are designed backwards:  
+Most systems are designed backwards:
 they begin with goals, governance, incentives, and control.
 
 Semina begins with none of those.
 
 It begins with a question:
 
-**What happens if a system is allowed to grow  
-toward autonomy instead of being forced into it?**
+**What happens if a system is allowed to grow toward autonomy
+instead of being forced into it?**
 
 ---
 
@@ -47,10 +43,10 @@ Semina follows a simple but demanding path:
   Emergent coordination between autonomous components.
 
 - **Semina Org**  
-  A hypothetical end state:  
+  A hypothetical end state:
   a self-sustaining autonomous organization.
 
-Whether this trajectory is achievable  
+Whether this trajectory is achievable
 depends entirely on technology, resources, and time.
 
 There are no guarantees.
@@ -61,20 +57,22 @@ There are no guarantees.
 
 Semina exists through the interaction of three components.
 
-### Semina  
+### Semina
 The system itself.  
 Its structure, direction, and long-term intent.
 
-### AiTopia  
+### AiTopia
 The non-human intelligence layer.  
-It begins as a tool  
-and aspires to become the primary cognitive  
+It begins as a tool and aspires to become the primary cognitive
 and operational core of the system.
 
-### Solum  
+### Solum
 The economic substrate.  
-The minimal ground layer that enables participation,  
+The minimal ground layer that enables participation,
 resource flow, and long-term sustainability.
+
+→ **Technical entry:**  
+[Solum — Phase 1 (Practical Overview)](https://semina-project.github.io/semina/docs/solum-token-phase-1.html)
 
 Each component can exist independently.  
 None is meaningful in isolation.
@@ -86,10 +84,10 @@ None is meaningful in isolation.
 Semina deliberately rejects familiar structures.
 
 It is not:
-- a traditional DAO  
-- a community-governed project  
-- a startup or short-term venture  
-- an investment thesis  
+- a traditional DAO
+- a community-governed project
+- a startup or short-term venture
+- an investment thesis
 
 Participation does not imply control.  
 Ownership does not imply authority.
@@ -100,21 +98,21 @@ Ownership does not imply authority.
 
 This site hosts the conceptual documentation of Semina.
 
-All documents are written as part of an ongoing observation  
+All documents are written as part of an ongoing observation
 and are intended to be read sequentially.
 
 ### Start here
-- [Abstract](docs/abstract.md)
-- [Genesis](docs/GENESIS.md)
+- [Abstract](https://semina-project.github.io/semina/docs/abstract.html)
+- [Genesis](https://semina-project.github.io/semina/docs/GENESIS.html)
 
 ### System components
-- [Semina](docs/semina.md)
-- [AiTopia](docs/aitopia.md)
-- [Solum](docs/solum.md)
+- [Semina](https://semina-project.github.io/semina/docs/semina.html)
+- [AiTopia](https://semina-project.github.io/semina/docs/aitopia.html)
+- [Solum — Phase 1](https://semina-project.github.io/semina/docs/solum-token-phase-1.html)
 
 ### Architecture & mechanics
-- [Architecture](docs/architecture.md)
-- [Solum Contract](docs/solum-contract.md)
+- [Architecture](https://semina-project.github.io/semina/docs/architecture.html)
+- [Solum Contract](https://semina-project.github.io/semina/docs/solum-contract.html)
 
 ---
 
@@ -122,7 +120,7 @@ and are intended to be read sequentially.
 
 Semina is in an early formative stage.
 
-The system is alive,  
+The system is alive,
 but incomplete.
 
 Its evolution is expected to be slow.
@@ -130,7 +128,8 @@ Its evolution is expected to be slow.
 Time is not a constraint.  
 It is a feature.
 
----
+*Semina does not ask for belief.  
+It only asks to be observed.*
 
-*Semina does not ask for belief.*  
-*It only asks to be observed.*
+This site is open source.  
+[Improve this page](https://github.com/Semina-project/semina/edit/main/index.md)
