@@ -2,52 +2,90 @@
 
 *A long-term experiment in autonomous systems.*
 
-Semina is an experimental project exploring how far autonomy can be extended in socio-technical systems when human intervention is progressively reduced.
+Semina is not a product.  
+It is not a protocol.  
+It is not a promise.
 
-It is not a product, a protocol, or a promise.  
-It is an ongoing observation.
+Semina is an experiment.
 
----
+An attempt to observe how far autonomy can be extended
+when human centrality is progressively reduced.
 
-## What is Semina?
-
-Semina is designed as an evolving system with a clear trajectory:
-
-- **Semina Framework** — the initial conceptual and structural layer  
-- **Semina Network** — emergent coordination between components  
-- **Semina Org** — a hypothetical end state: a self-sustaining autonomous organization
-
-Whether this trajectory can be completed depends entirely on technology, resources, and time.
-
-No guarantees are made.
+There is no guaranteed roadmap.  
+No predefined outcome.  
+Only direction.
 
 ---
 
-## Core Components
+## An experiment, not a thesis
 
-Semina is composed of three foundational elements:
+Most systems are designed backwards:
+they begin with goals, governance, incentives, and control.
 
-- **Semina**  
-  The overarching system and its evolutionary path.
+Semina begins with none of those.
 
-- **AiTopia**  
-  The non-human intelligence layer.  
-  It begins as a tool and aspires to become the primary cognitive and operational core.
+It begins with a single question:
 
-- **Solum**  
-  The economic substrate.  
-  A minimal, functional base that enables participation, resource flow, and long-term sustainability.
+**What happens if a system is allowed to evolve toward autonomy,
+instead of being forced into it by design?**
 
-Each component exists independently, but none is meaningful in isolation.
+---
+
+## The trajectory
+
+Semina follows a demanding but deliberate path:
+
+**Framework → Network → Organization**
+
+- **Semina Framework**  
+  The conceptual and structural foundation.
+
+- **Semina Network**  
+  Emergent coordination between autonomous components.
+
+- **Semina Organization**  
+  A hypothetical end state: a self-sustaining autonomous system.
+
+Whether this trajectory is achievable
+depends on technology, resources, community, and time.
+
+There are no guarantees.
+
+---
+
+## Core components
+
+Semina exists through the interaction of three elements.
+
+### Semina
+The system itself.  
+Its structure, constraints, and long-term intent.
+
+### Aitopia
+The cognitive and interpretative layer.  
+It begins as an analytical tool and evolves toward a non-human
+decision and execution framework.
+
+### Solum
+The economic substrate.  
+A minimal ground layer designed to enable participation,
+resource flow, and long-term sustainability.
+
+Each component can exist independently.  
+None is meaningful in isolation.
 
 ---
 
 ## What Semina is not
 
-- Not a traditional DAO  
-- Not a community-governed project  
-- Not a short-term venture  
-- Not an investment thesis  
+Semina deliberately rejects familiar structures.
+
+It is not:
+- a traditional DAO
+- a community-governed project
+- a startup
+- a short-term venture
+- an investment thesis
 
 Participation does not imply control.  
 Ownership does not imply authority.
@@ -56,51 +94,46 @@ Ownership does not imply authority.
 
 ## Documentation
 
-All conceptual documentation lives in the `/docs` directory  
-and is intended to be read sequentially.
+This repository hosts the canonical documentation of Semina.
 
-### Core documents
-- [`abstract.md`](docs/abstract.md)
-- [`GENESIS.md`](docs/GENESIS.md)
+All documents are written as part of an ongoing observation
+and are intended to be read as a coherent whole.
+
+### Start here
+- [Abstract](docs/abstract.md)
+- [Genesis](docs/genesis.md)
 
 ### System components
-- [`semina.md`](docs/semina.md)
-- [`aitopia.md`](docs/aitopia.md)
-- [`solum.md`](docs/solum.md)
+- [Semina](docs/semina.md)
+- [Aitopia](docs/aitopia.md)
+- [Solum](docs/solum.md)
+- [Solum Token Launch Event](docs/solum_token_launch_event.md)
 
-### Architecture & mechanics
-- [`architecture.md`](docs/architecture.md)
-- [`solum-contract.md`](docs/solum-contract.md)
-
----
-
-## Smart Contract
-
-- **Solum Token (Base / Uniswap V2)**  
-  See: [`docs/solum-contract.md`](docs/solum-contract.md)
-
-The contract is published for transparency and auditability.  
-It is intended to operate as an autonomous economic substrate  
-within the Semina framework.
+### Architecture and mechanics
+- [Architecture](docs/architecture.md)
+- [Solum Contract](docs/solum-contract.md)
 
 ---
 
 ## Status
 
-Semina is in an early, formative stage.
+Semina is in an early formative stage.
 
-The system is alive, but incomplete.  
+The system is active,
+but incomplete.
+
 Its evolution is expected to be slow.
 
-Time is a feature, not a constraint.
+Time is not a constraint.  
+It is a structural component.
 
 ---
 
-## License
+## Final note
 
-MIT License.
+Semina does not ask for belief.  
+It does not ask for trust.
 
----
+It only asks to be observed.
 
-*Semina does not ask for belief.*  
-*It only asks to be observed.*
+This repository is open source.
