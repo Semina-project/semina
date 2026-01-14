@@ -101,7 +101,7 @@ and are intended to be read as a coherent whole.
 
 ### Start here
 - [Abstract](docs/abstract.md)
-- [Genesis](docs/genesis.md)
+- [Genesis](docs/GENESIS.md)
 
 ### System components
 - [Semina](docs/semina.md)
