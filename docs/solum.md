@@ -1,5 +1,20 @@
 # Solum
 
+> This document provides a high-level overview of Solum.
+>
+> Solum is intentionally documented in layers.
+> This overview describes its purpose, role, and general design principles.
+>
+> Detailed mechanics, constraints, limits, and launch conditions
+> are documented separately and should be read as complementary references.
+>
+> Readers are encouraged to approach Solum documentation in the following order:
+> 1. Overview (`solum.md`)
+> 2. Mechanics and constraints
+> 3. Launch conditions and public exposure
+>
+> This structure is deliberate and reflects how Solum itself is intended to be understood.
+
 Solum is the economic substrate of Semina.
 
 It represents the initial ground upon which the system can exist, attract participation, and generate the resources required for survival and growth. Solum is intentionally simple in its origin, not as a limitation, but as a design choice aligned with Semina’s philosophy.
