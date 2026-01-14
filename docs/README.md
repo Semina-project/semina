@@ -1,97 +1,116 @@
-# Documentation — Semina / Solum
+# Semina — Documentation Index
 
-This documentation describes an ecosystem in formation.
+This directory contains the public documentation of **Semina**.
 
-Not a product roadmap.  
-Not a marketing narrative.  
-A set of mechanisms, constraints, and intentions.
+Semina is not a product, not a protocol, and not a roadmap.
+It is a long-term experiment on reducing human centrality in autonomous systems.
 
-At this stage, **Solum** is the primary operational layer.
-**Semina** is the direction toward which everything converges.
+The documents here are intentionally written without promises,
+timelines, or guarantees.
 
----
-
-## How to read this documentation
-
-If you are here to understand **Solum**, start at the top.  
-If you are here to understand **Semina**, read everything — in order.
-
-This documentation is written for participants, not spectators.
+They are meant to be read, not followed.
 
 ---
 
-## Solum Token (Entry Layer)
+## Suggested Reading Order
 
-Solum is the first accessible layer of the system.
-It is where participation begins.
+If this is your first contact with Semina, the following order is recommended:
 
-Solum is:
-- a token deployed directly into a public DEX pool
-- governed by mechanical rules (taxes, burns, liquidity, treasury)
-- designed for early participation, not speculative extraction
-- intentionally constrained to reduce privilege and asymmetry
+1. **Abstract**  
+   A short overview of what Semina is — and what it is not.
 
-Solum Phase 1 is where:
-- access is structurally cheap
-- participation precedes speculation
-- early mistakes are survivable
-- and alignment matters more than timing
+2. **Genesis**  
+   How and why Semina came into existence.  
+   This document explains the initial renunciations and constraints.
 
-### Core Solum documents
+3. **Semina**  
+   The system itself: intent, structure, and long-term direction.
 
-- **Solum — Phase 1 (Practical Overview)**  
-  `solum-token-phase-1.md`  
-  → What Solum is, how it works, and who Phase 1 is for.
+4. **Architecture**  
+   How the system is conceptually layered and why those separations exist.
 
-- **Solum — On Honesty, Constraints, and the Human Factor**  
-  `solum-honesty-and-constraints.md`  
-  → Why Solum does not depend on trust, teams, or human protagonism.
+5. **Solum**  
+   The economic substrate and participation layer.
 
-Together, these documents are sufficient to understand:
-- how Solum functions
-- how it can be accessed
-- and what kind of participation it invites
-
-No additional material is required to engage responsibly.
+This order is not mandatory, but it helps avoid misinterpretation.
 
 ---
 
-## Semina (Direction Layer)
+## Core Documents
 
-Semina is not a product that launches.
-It is a system that emerges.
+### Conceptual Foundation
+- **Abstract**
+- **Genesis**
+- **Semina**
 
-Semina represents:
-- autonomy over time
-- systems that outgrow human centrality
-- alignment between participation and long-term continuity
-
-Solum exists to prepare the ground.
-
-Semina is what grows when the ground is stable.
-
-At this stage, Semina is intentionally under-defined.
-Its form depends on the behavior and persistence of the system itself,
-not on promises made in advance.
+These documents describe the purpose, constraints, and philosophical ground of the system.
 
 ---
 
-## What this documentation is not
+### Architecture
+- **Architecture**
+- **Interface and Cognition**
 
-- Not a whitepaper
-- Not an investment pitch
-- Not a roadmap
-- Not a set of guarantees
+These documents explain how roles are separated within Semina,
+including the distinction between cognitive/narrative layers and interface layers.
 
-It is a record of intent, limits, and mechanisms.
+---
+
+### Interface
+- **Aitopi**
+
+Aitopi is the interface layer of Semina.
+It exists to respond, clarify, and translate — not to decide or narrate.
+
+---
+
+### Cognitive / Narrative Layer
+- **Aitopia**
+
+Aitopia represents the cognitive and narrative layer of the system.
+It holds memory, context, and responsibility for long-form explanations.
+
+---
+
+### Economic Substrate
+- **Solum**
+- **Solum — Phase 1 (Practical Overview)**
+- **Solum — Limits and Fair Access**
+- **Solum — Honesty and Constraints**
+
+These documents describe how participation works,
+why limits exist,
+and how Solum is intentionally constrained.
+
+---
+
+### Technical Reference
+- **Solum Contract**
+
+Canonical source code for the Solum token.
+Behavior is defined exclusively by the frozen contract.
+
+---
+
+## Notes on Interpretation
+
+- Semina does not ask for trust.  
+- Semina does not promise outcomes.  
+- Semina does not optimize for growth or attention.  
+
+The system is intentionally incomplete.
+
+Time is not a constraint.
+It is a filter.
 
 ---
 
 ## Status
 
-Early phase.  
-Experimental by design.  
-Transparent by constraint.
+Semina is in an early formative stage.
 
-Participation is optional.  
-Understanding is required.
+The system is alive, but unfinished.
+Its evolution is expected to be slow.
+
+That is not a limitation.
+It is a design choice.
