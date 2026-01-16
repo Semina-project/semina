@@ -1,93 +1,144 @@
 # SolumWorld
+Genesis README — v1
 
-SolumWorld is an observational layer of the Semina ecosystem.
+What is SolumWorld?
 
-It is not a product, a dashboard, or a promise.
-It is an environment designed to **observe, interpret, and represent** how Solum behaves over time.
+SolumWorld is an exploratory visualization and analysis layer built on top of Solum, the economic substrate of the Semina ecosystem.
 
----
+It is not a game.
+It is not a trading dashboard.
+It is not a governance interface.
 
-## What SolumWorld is
+SolumWorld exists to observe, interpret, and expose how a rule-based on-chain system behaves once it is alive.
 
-SolumWorld is conceived as a living map of Solum.
+Nothing here modifies Solum.
+Everything here reads, maps, and makes visible what already exists on-chain.
 
-- Solum is the terrain.
-- Wallets are the colonists.
-- Transactions are movements across that terrain.
 
-SolumWorld exists to make visible:
-- how Solum is used,
-- how value flows,
-- how participants interact with the rules of the system.
+Core Concept
 
-It focuses on **structure, behavior, and dynamics**, not on price prediction or speculation.
+- Solum is the terrain
+- Wallets are the colonists
+- Transactions are movements across the terrain
+- Taxes, limits, and burns are environmental forces
+- Time reveals structure
 
----
+SolumWorld treats the Solum contract as a living system whose behavior can be observed without interference.
 
-## What SolumWorld is not
 
-SolumWorld is **not**:
-- a trading tool
+Purpose
+
+1. Transparency
+
+SolumWorld exposes all relevant Solum activity in a readable, interpretable form:
+- Buys
+- Sells
+- Transfers
+- Burns
+- Liquidity effects
+- Treasury flows
+
+No hidden interpretation layers.
+No selective visibility.
+
+
+2. Interpretation (not judgment)
+
+SolumWorld does not label behavior as good or bad.
+
+Selling is not evil.
+Holding is not virtuous.
+Transferring is not suspicious.
+
+Each action contributes differently to:
+- liquidity
+- distribution
+- taxes, burns, and reflections
+
+SolumWorld shows what happens, not what should happen.
+
+
+3. Community Mapping
+
+SolumWorld introduces the concept of colonists:
+wallets interacting with Solum over time.
+
+Colonists may be represented with:
+- activity history
+- persistence over time
+- contribution metrics (liquidity impact, taxes paid, burns triggered)
+
+This is observational, not punitive.
+Any status or reputation system is informational only.
+
+
+What SolumWorld Is Not
+
+SolumWorld is explicitly not:
+- a trading terminal
+- a price prediction tool
 - a recommendation engine
-- a ranking of “good” or “bad” actors
-- a promise of transparency beyond what is already public on-chain
-- a gamified incentive system
+- a profit leaderboard
+- a moderation or enforcement layer
 
-Any representation provided by SolumWorld is descriptive, not prescriptive.
+It does not influence Solum.
+It does not intervene.
+It does not optimize outcomes.
 
----
 
-## Current status
+Relationship to Semina
 
-SolumWorld is in **genesis stage**.
+Semina defines the horizon.
+Solum defines the ground rules.
+SolumWorld defines the lens.
 
-- Development is private.
-- Features are undefined and subject to change.
-- No public roadmap is provided.
-- No guarantees are implied.
+SolumWorld exists so system behavior can be studied early,
+assumptions can be validated or broken,
+and future layers of Semina can be designed with real data.
 
-This repository entry exists to establish intent, not completion.
+SolumWorld is a research surface, not a product feature.
 
----
 
-## Relationship to Semina and Solum
+Development Status
 
-SolumWorld is an extension of the Semina philosophy:
+Status: Private development (Genesis phase)
 
-- Rules first.
-- Observation before optimization.
-- Transparency without interpretation bias.
+- No public endpoints
+- No guarantees of completeness
+- Experimental UX and representation
+- Evolving data models
 
-It does not alter Solum.
-It does not influence behavior.
-It observes.
+SolumWorld will remain read-only by design.
 
----
 
-## Design principles
+Design Principles
 
-- Read-only by default.
-- On-chain data as the sole source of truth.
-- No hidden logic.
-- No behavioral enforcement.
-- No financial advice or guidance.
+- Transparency over polish
+- Observation over persuasion
+- Structure over narrative
+- Data before conclusions
+- No hidden logic
 
-SolumWorld reflects the system.
-It does not steer it.
+If something is not visible on-chain, SolumWorld does not invent it.
 
----
 
-## Future considerations
+Why SolumWorld Exists This Early
 
-If SolumWorld evolves, it may explore:
-- visualization of on-chain dynamics
-- historical behavior mapping
-- contextual interpretation of participation patterns
+Most systems explain themselves after growth.
+SolumWorld exists to understand Solum while it is still fragile.
 
-Any such evolution will remain aligned with Semina’s core principles:
-clarity, restraint, and long-term thinking.
+This allows:
+- early detection of emergent behavior
+- honest discussion of system dynamics
+- a shared reference frame for the community
 
----
+Not to promise success,
+but to see clearly.
 
-SolumWorld does not predict outcomes.
-It reveals structure.
+
+Final Note
+
+SolumWorld does not tell you what to do.
+It shows you where you are standing.
+
+Understanding precedes participation.
