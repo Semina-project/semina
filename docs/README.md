@@ -12,7 +12,7 @@ and should be read with context.
 - [Abstract](abstract.md)  
   High-level overview of the experiment.
 
-- [Genesis](genesis.md)  
+- [Genesis](GENESIS.md)  
   Origin, motivation, and initial constraints.
 
 ---
