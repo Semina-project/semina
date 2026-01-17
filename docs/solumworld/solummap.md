@@ -1,128 +1,124 @@
-# SolumMap — Spatial Representation of On-Chain Civilization
+# SolumMap — Living Spatial Representation
 
-## Definition
+SolumMap is a conceptual and visual representation of the Solum ecosystem.
+It is not a game, not a simulation, and not a promise of future mechanics.
+It is a way to *read* on-chain activity as a living territory.
 
-**SolumMap** is the spatial and visual representation of SolumWorld.
-
-If SolumWorld is the platform and living system,  
-**SolumMap is its territory**.
-
-SolumMap translates on-chain state into a persistent, evolving map where economic activity becomes geography.
+SolumMap translates economic states into spatial metaphors.
 
 ---
 
-## Scale and Structure
+## Core Principle: Solum Has States
 
-SolumMap is defined as a finite terrain composed of Solum units:
+Solum exists in two fundamental states:
 
-- Total area: **100 trillion Solum units**
-- Representation: discrete blocks (conceptually 1 m² per block)
-- Each block reflects the state of Solum at that position in time
+### 1. Dormant Solum (Inactive)
 
-This does not imply ownership by default.
-It implies **representation**, not allocation.
+- Solum held inside the liquidity pool
+- Represents **infertile land**
+- No identity, no history, no activity
+- Pure availability
 
----
+The liquidity pool always represents **uncolonized territory**.
+It is land that exists, but has not yet been brought to life.
 
-## Terrain Semantics
+### 2. Active Solum
 
-Each type of on-chain state alters the terrain:
+- Solum held outside the pool, in wallets
+- Represents **colonized land**
+- Carries history, behavior, and impact
+- Can generate value, memory, and transformation
 
-- **Solum in liquidity pools**  
-  → barren or unstable land  
-  (potential, but fragile)
-
-- **Burned Solum**  
-  → forests, rivers, lakes  
-  (fertility through transformation)
-
-- **Treasury accumulation**  
-  → infrastructure, resilience, permanence
-
-- **Inactive Solum**  
-  → dormant land, waiting potential
-
-No transformation is cosmetic.
-Each visual change maps to a real economic process.
+Leaving the pool is the act of **colonization**.
 
 ---
 
-## Wallets as Settlements
+## Colonists (Wallets)
 
-Wallets are represented as settlements whose form evolves over time:
+Wallets are represented as settlements:
+- parcels
+- farms
+- villages
+- cities
 
-- Small holdings → plots, farms
-- Long-term holding → villages
-- Large or persistent activity → cities
-- High interaction → trade routes
+Their form depends on:
+- amount of active Solum
+- duration of holding
+- interaction behavior (hold, transfer, sell)
 
-Status is not assigned.
-It **emerges**.
-
-There is no ranking of “good” or “bad” wallets.
-Only visible behavior and its cumulative effects.
-
----
-
-## Neutral Interpretation Principle
-
-SolumMap enforces strict neutrality:
-
-- Selling is not destruction.
-- Burning is not loss.
-- Accumulation is not dominance.
-- Movement is not instability.
-
-Every action contributes to the map.
-Every contribution is informational.
-
-Meaning arises from:
-- duration
-- repetition
-- interaction
-- correlation
-
-Not from intention.
+There is no moral judgment.
+Only different forms of contribution.
 
 ---
 
-## Relationship to SolumWorld and Semina
+## What Happens When Solum Is Sold
 
-SolumMap is:
+Selling Solum is not destruction.
+It is **territorial transformation**.
 
-- a sub-system of SolumWorld
-- a visualization layer with semantic depth
-- a continuous dataset for analysis and learning
+When a colonist sells Solum, the previously active land is transformed through four simultaneous processes:
 
-For **Semina**, SolumMap provides:
-- observable decentralized behavior
-- real-time systemic feedback
-- a living laboratory for autonomy and emergence
+### 1. Burn — Permanent Fertility
 
-For **Aitopia**, SolumMap is:
-- a structured environment to observe
-- a source of non-synthetic behavioral data
-- a foundation for future interpretative intelligence
+A portion of Solum is burned.
+This land becomes:
+- forests
+- rivers
+- fertile zones
+
+It never returns to circulation.
+It is permanent enrichment of the world.
+
+### 2. Redistribution — Shared Harvest
+
+A portion is distributed to other holders.
+This represents:
+- harvest
+- shared growth
+- expansion of active territory for others
+
+### 3. Return to Pool — Availability
+
+A portion returns to the liquidity pool.
+This land becomes:
+- inactive
+- infertile
+- available again for colonization
+
+The pool always reflects how much land is still open.
+
+### 4. Treasury — System Resources
+
+A portion feeds the treasury.
+This represents:
+- resources for SolumWorld
+- resources for Semina
+- capacity for future development
 
 ---
 
-## Foundational Principle
+## No Good or Bad Actions
 
-SolumMap does not optimize outcomes.
-It preserves information.
+Holding, selling, transferring:
+- none are punished
+- none are privileged
 
-It does not guide behavior.
-It records it.
+Every action contributes differently.
 
-It does not judge the system.
-It **reveals it**.
+SolumMap exists to show that:
+- value is transformed, not erased
+- behavior creates landscape
+- the system evolves without judgment
 
 ---
 
-## Closing Statement
+## Relationship With SolumWorld and Semina
 
-SolumWorld is the ecosystem.  
-SolumMap is the land.
+- **SolumWorld** is the platform where this world is observed
+- **SolumMap** is the visual language of the system
+- **Semina** learns from the data generated by this evolution
 
-Semina does not dictate civilization.
-It allows one to form.
+SolumMap is not a feature roadmap.
+It is a lens.
+
+A way to see an autonomous system become a living world.
