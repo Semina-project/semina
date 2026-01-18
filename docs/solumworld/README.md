@@ -1,156 +1,106 @@
-# SolumWorld — Genesis (Public Spec)
+# SolumWorld
 
-SolumWorld is a monitoring and transparency layer for the Solum ecosystem.
+SolumWorld is the public-facing web platform that visualizes Solum as a living on-chain environment: **the terrain**, the **colony**, and the **history** of its evolution.
 
-Conceptually:
-- **Solum is the terrain** (the on-chain economic substrate).
-- **Wallets are colonists** (participants interacting with that terrain).
-- SolumWorld is the *map* — a way to observe the ground evolving in real time.
+This documentation is intentionally **audit-friendly**:
+- it defines what SolumWorld is (and is not),
+- how it maps on-chain events into a coherent world,
+- and where to find the canonical sources of truth.
 
-This is not a “marketing site”.  
-It is a technical interface for visibility, analysis, and long-horizon participation.
+> Implementation note: the SolumWorld codebase is being developed in a **private repository** at this stage.  
+> This public repo remains the **canonical documentation + contract reference**.
+
+---
+
+## What SolumWorld is
+
+SolumWorld turns on-chain facts into a visual narrative:
+- the **pool** is represented as the available “inactive terrain” (uncultivated / infertile ground),
+- circulating Solum becomes “active territory” held by colonists (wallets),
+- burns and other structural flows become visible changes over time (fertility, recovery, growth),
+- the system remains **neutral**: actions are not moralized. They are interpreted as dynamics.
+
+SolumWorld exists to provide:
+- transparency,
+- observability,
+- and a user-facing way to understand Solum without needing explorers or raw logs.
+
+---
+
+## SolumMap vs SolumWorld
+
+### SolumWorld (platform)
+A full product surface:
+- dashboards, narratives, UX layers, optional “live” metrics
+- explanations and guided interpretation
+- multiple views (overview + deep dives)
+
+### SolumMap (map-only visualization)
+A dedicated map layer:
+- shows *only the territory* and its transformations
+- can support zoom levels and time-based snapshots
+- is designed to remain readable and coherent (not chaotic)
+
+SolumMap is a **representation**, not a game.  
+It must remain faithful to on-chain reality while presenting changes in a way that humans can follow.
+
+---
+
+## Design principles
+
+1) **On-chain truth first**  
+SolumWorld is derived from blockchain data. If a state cannot be computed from chain data, it must be marked as an assumption or excluded.
+
+2) **Audit posture**  
+Everything important should be explainable from:
+- the contract code,
+- public docs in this repo,
+- and publicly released articles.
+
+3) **Neutral interpretation**  
+Buying, selling, transferring, holding: none of these are “good” or “bad” by default. They are system dynamics.
+
+4) **Coherent UX over raw realtime chaos**  
+SolumWorld may show realtime metrics when it improves understanding.  
+SolumMap must prioritize readability: updates can be batched (e.g., snapshots) so the map remains stable and meaningful at each zoom level.
+
+---
+
+## Document index
+
+- **SolumMap (concept + mapping rules)**  
+  `docs/solumworld/solummap.md`
+
+- **SolumWorld (foundational concept)**  
+  `docs/solumworld/solumworld_onchain_civilization.md`  
+  (If this file does not exist yet, it is the intended canonical home for the concept.)
+
+- **System architecture (Semina-wide)**  
+  `docs/architecture.md`
+
+- **Solum contract (source of truth)**  
+  `contract/SolumToken.sol`
+
+---
+
+## Official links (informational)
+
+These links are provided for transparency and discovery.  
+Some may be minimal or under construction during early stages.
+
+- X (Twitter): `@AiTopia_Cloud`
+- Medium: `https://medium.com/@semina.core`
+- Web: `https://www.aitopia.cloud`
 
 ---
 
 ## Status
 
-**Public repository:** documentation/spec only (Genesis).  
-**Development:** private repository (beta closed).  
-Reason: reduce noise while the core architecture stabilizes.
+SolumWorld is in early active development.
+Documentation evolves openly; implementation ships progressively under controlled exposure.
 
-The moment the system is stable enough to be audited productively, code will be exposed.
-
----
-
-## Goals
-
-SolumWorld exists to provide:
-
-1. **Transparency**
-   - On-chain activity, clearly represented.
-   - Pool evolution over time (price, liquidity, flow).
-   - Tax-derived system contributions (where applicable).
-
-2. **A Solum-native UX**
-   - The UI should reflect Solum’s philosophy: ground, colonization, slow emergence.
-   - Think “SimCity-style” readability, not a trader terminal.
-
-3. **Community visibility**
-   - Wallets as “colonists” (purely descriptive).
-   - Optional *status / reputation* signals for analysis, not judgment.
-
----
-
-## Non-goals (important)
-
-- SolumWorld does **not** tell users what to do.
-- SolumWorld does **not** label wallets as “good/bad” as a moral statement.
-- SolumWorld does **not** promise outcomes or price behavior.
-- SolumWorld is not a replacement for reading the contract and docs.
-
----
-
-## Canonical sources
-
-SolumWorld only treats these as authoritative:
-
-- **Semina GitHub (contracts + docs)**  
-  https://github.com/Semina-project/semina
-- **Semina Medium (interpretation / narrative)**  
-  https://medium.com/@semina.core
-- **Web (alpha surface)**  
-  https://www.aitopia.cloud
-- **X/Twitter (announcements)**  
-  https://twitter.com/AiTopia_Cloud
-
-If something isn’t in those sources, SolumWorld must present it as **model / estimate**, not fact.
-
----
-
-## Architecture (v0)
-
-SolumWorld is built as three components:
-
-### 1) Indexer (Base / EVM)
-- Watches chain events from a known start block
-- Consumes logs (examples):
-  - `Swap`, `Sync` (AMM pool)
-  - `Transfer` (token movements)
-- Writes normalized data into Postgres
-- Reorg-safe (confirmation depth + rollback strategy)
-
-### 2) API (read-only)
-- Serves clean endpoints for the UI and external reading
-- Typical outputs:
-  - current / historical price (derived from pool)
-  - pool reserves over time
-  - swaps (buy/sell classification where possible)
-  - holder distribution snapshots
-  - system contribution estimates (tax-derived, when applicable)
-- Rate-limited and cacheable
-
-### 3) UI (Solum-native)
-A dashboard designed around readability:
-- **Terrain view:** pool state and evolution
-- **Events view:** swaps/transfers timeline
-- **Colonists view:** wallets, distribution, behavior patterns
-- **Metrics view:** burns / liquidity reinforcement / treasury flow (when derivable)
-
----
-
-## “Reputation / Status” (informational)
-
-SolumWorld may provide a *status layer* for wallets, but with strict constraints:
-
-- It is **non-binding** and **non-authoritative**
-- It is **behavioral**, not moral
-- It must acknowledge that:
-  - selling is not “bad”
-  - transfers are not “bad”
-  - these actions can contribute to liquidity, treasury, and holder dynamics depending on contract rules
-
-This layer exists to make information visible, not to create social coercion.
-
----
-
-## Infrastructure choice (beta closed)
-
-Initial deployment target:
-- **Hetzner VPS**
-- Dockerized services:
-  - Postgres
-  - Indexer
-  - API
-  - Next.js frontend
-- Public access via:
-  - **solumworld.aitopia.cloud** (when enabled)
-
----
-
-## Release philosophy
-
-No fixed dates.
-
-SolumWorld will be exposed publicly when:
-- indexing is stable
-- data is consistent under reorgs
-- the UI communicates clearly without misrepresenting the system
-
-Until then:
-- this repo holds the public spec
-- development remains private
-
----
-
-## Next public milestone
-
-A minimal “read-only alpha”:
-- pool overview
-- event timeline
-- basic colonist list
-- basic metrics
-
-Everything else grows from there.
-
-SolumWorld is not a product pitch.  
-It is an instrument panel for a system that intends to last.
+If you are reviewing this as a developer:
+- start from `docs/architecture.md`,
+- then read `contract/SolumToken.sol`,
+- then return here for SolumWorld and SolumMap mapping rules.
+```0
