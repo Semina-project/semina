@@ -1,124 +1,119 @@
 # SolumWorld
 
-SolumWorld is a system-level visualization and interpretation layer built on top of Solum and the Semina ecosystem.
+SolumWorld is the observable world generated from the Solum economic system.
 
-It is not a game, not a simulation, and not a speculative interface. SolumWorld exists to make the behavior of an on-chain economic system observable, legible, and narratively coherent over time.
+It is not the system itself, and it does not define rules or outcomes.  
+SolumWorld exists to translate on-chain activity into a coherent, human-readable, and visually interpretable environment.
 
----
-
-## Purpose
-
-SolumWorld transforms raw blockchain activity into a persistent world representation.
-
-Its purpose is to:
-- Expose how Solum behaves as a living economic substrate
-- Translate on-chain events into long-term structural changes
-- Allow humans to observe system evolution without influencing it
-- Provide transparency without reducing the system to metrics alone
-
-SolumWorld does not optimize for speed, engagement, or profit signaling.  
-It optimizes for understanding.
+Its purpose is not speculation or gamification, but **understanding**.
 
 ---
 
-## Position within the Semina ecosystem
+## Position within Semina
 
-SolumWorld sits between raw blockchain data and human interpretation.
+Semina is the system.  
+Solum is the economic substrate.  
+SolumWorld is the world that emerges from their interaction.
 
-- **Solum** defines the economic rules
-- **SolumMap** defines the spatial representation
-- **SolumWorld** defines the systemic narrative layer
-- **Aitopia** observes, learns, and contextualizes
+SolumWorld does not control Semina, and it does not influence Solum’s rules.  
+It observes, interprets, and exposes what already exists on-chain.
 
-SolumWorld does not modify Solum.
-It does not control Solum.
-It only reflects what Solum does over time.
+This separation is intentional and strict.
 
 ---
 
-## What SolumWorld shows
+## What SolumWorld is
 
-SolumWorld visualizes:
-- Distribution and circulation of Solum
-- Long-term effects of holding, transferring, selling, and burning
-- Structural growth of the system (liquidity, activity, persistence)
-- Emergent patterns that only appear over time
+SolumWorld is:
 
-All representations are derived from publicly available on-chain data.
+- A public-facing platform for observing Solum activity
+- A visualization layer built on verified blockchain data
+- A narrative and analytical interface for long-term system behavior
+- A bridge between raw on-chain mechanics and human perception
 
----
-
-## What SolumWorld does not show
-
-SolumWorld intentionally does **not** represent:
-- Treasury balances as spatial territory
-- Short-term price action
-- Real-time noise at transaction granularity
-- Private or off-chain information
-
-This separation exists to preserve coherence and prevent misinterpretation.
-
-Treasury data remains transparent and auditable, but is contextualized elsewhere, not inside the map layer.
+SolumWorld transforms data into a **living environment**, not into predictions or guidance.
 
 ---
 
-## Time and coherence model
+## What SolumWorld is not
 
-SolumWorld is not real-time by default.
+SolumWorld is not:
 
-The system prioritizes:
-- Temporal smoothing
-- Coherent state transitions
-- Narrative continuity over raw immediacy
+- A control panel
+- A governance layer
+- A trading interface
+- A promise of outcomes or performance
+- A replacement for reading the smart contract
 
-Updates may occur in defined intervals rather than per transaction, ensuring that visible changes represent meaningful structural shifts rather than transient noise.
-
----
-
-## System philosophy
-
-SolumWorld assumes that:
-- No on-chain action is inherently good or bad
-- All actions contribute to system evolution
-- Stability emerges from constraints, not intervention
-- Meaning appears over time, not instantly
-
-The world reflects consequences, not intentions.
+Nothing shown in SolumWorld overrides or alters on-chain reality.
 
 ---
 
-## Evolution
+## Relationship to SolumMap
 
-SolumWorld is designed to evolve without breaking its core constraints.
+SolumMap is a subsystem of SolumWorld.
 
-Future extensions may include:
-- Additional visual layers
-- New interpretive dimensions
-- Deeper integration with Aitopia
+While SolumWorld represents the broader observable world,  
+SolumMap is the **territorial representation** of Solum itself.
 
-However:
-- Solum rules remain unchanged
-- Historical data is never rewritten
-- The system never intervenes in on-chain behavior
+SolumMap focuses exclusively on land, activity, transformation, and colonization as derived from Solum’s movement and state changes.
+
+SolumMap does not exist independently from SolumWorld.
 
 ---
 
-## Audience
+## Time, rhythm, and perception
 
-This document is written for:
-- Developers evaluating system coherence
-- Auditors assessing transparency and intent
-- Researchers exploring autonomous economic systems
-- Contributors seeking architectural clarity
+SolumWorld does not aim to mirror the blockchain tick by tick.
 
-It is not written for marketing or persuasion.
+While the underlying data is on-chain and verifiable, SolumWorld prioritizes **perceptual coherence** over raw immediacy.
+
+Updates may be batched, smoothed, or paced to ensure that:
+
+- Large-scale patterns remain readable
+- Local changes do not create visual noise
+- The world feels alive, not chaotic
+
+Every transformation shown is grounded in real data, but presented at a human scale.
 
 ---
 
-## Final note
+## Transparency and limits
 
-SolumWorld is not a product.
+SolumWorld is transparent by design, but not exhaustive by default.
 
-It is an observation surface.
+All information displayed is derived from publicly verifiable sources.  
+However, not all data must be rendered visually at all times.
 
-It exists so that a decentralized system can be seen, understood, and studied as it grows — without being guided, corrected, or optimized by human discretion.
+Some elements of the system may remain abstracted or contextualized elsewhere in the Semina ecosystem.
+
+This is not opacity.  
+It is intentional separation of concerns.
+
+---
+
+## Role within the experiment
+
+SolumWorld exists to make Semina observable.
+
+It allows participants, developers, and external reviewers to:
+
+- Observe long-term behavior
+- Detect emergent patterns
+- Understand how constraints shape outcomes
+- Evaluate the system without relying on narratives or promises
+
+SolumWorld does not guide participation.  
+It reveals consequences.
+
+---
+
+## Status
+
+SolumWorld is under active conceptual and technical development.
+
+Its structure is public.  
+Its implementation is iterative.  
+Its evolution follows the same principles as Semina itself: clarity first, expansion second.
+
+No guarantees are implied.
