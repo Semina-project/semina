@@ -1,121 +1,124 @@
 # Semina
 
-Semina is an early-stage experiment: a framework for building long-lived systems that remain coherent while progressively reducing human centrality.
+Semina is an experimental on-chain ecosystem designed to explore how autonomous systems can emerge, persist, and evolve with minimal human intervention.
 
-This repository is intentionally **technical and minimal**:
-- The **contract** is the source of truth.
-- The **docs** explain constraints, boundaries, and intent.
-- No marketing. No promises. No roadmap. Only a horizon.
+It is not a product, not a protocol with a roadmap, and not a promise of outcomes.  
+Semina defines a horizon, not a destination.
 
----
-
-## Status
-
-Semina is in **Alpha / early Beta** by design.
-
-What this means:
-- controlled exposure
-- evolving surfaces
-- incomplete UX in some areas
-- concepts and structure documented openly
-
-What does **not** change during early stages:
-- the canonical technical reference lives here on GitHub
-- the Solum contract and its early-phase rules are treated as stable
+The project is built around a simple premise:  
+**Can a system be designed to remain coherent, observable, and viable while progressively reducing human centrality?**
 
 ---
 
-## Canonical sources (priority order)
+## Core Components
 
-1) **GitHub (this repo)** — canonical technical source  
-   The contract, parameters, and documented invariants live here.
+Semina is composed of three clearly separated layers:
 
-2) **Medium** — canonical conceptual narrative (interpretation, not authority)  
-   https://medium.com/@semina.core
+### 1) Solum — Economic Substrate
+Solum is the on-chain economic layer of Semina.  
+It defines rules of value flow, friction, and constraint inside the system.
 
-3) **X / Twitter** — public updates (informational, not normative)  
-   https://x.com/AiTopia_Cloud
+Solum is implemented as a fixed-rule ERC-20 smart contract on **Base**.  
+Its behavior is intentionally constrained, predictable, and non-adaptive in early phases.
 
-4) **Web** — evolving public surface  
-   https://www.aitopia.cloud
+Solum does not promise returns.  
+It defines the terrain on which participation occurs.
 
-Rule: if anything conflicts, **GitHub prevails** for technical truth.
-
----
-
-## Start here (recommended reading order)
-
-1) **Architecture**  
-   `docs/architecture.md`
-
-2) **Genesis**  
-   `docs/GENESIS.md`
-
-3) **Abstract**  
-   `docs/abstract.md`
-
-4) **Solum (contract + notes)**  
-   `contract/SolumToken.sol`  
-   `contract/README.md`
-
-5) **SolumWorld (observability layer)**  
-   `docs/solumworld/README.md`
+Canonical reference:
+- Smart contract source: `contract/SolumToken.sol`
 
 ---
 
-## Components
+### 2) SolumWorld — Observability & Visualization Layer
+SolumWorld is a public-facing visualization and observability layer.
 
-### Solum (token contract)
-Solum is the economic substrate of Semina.
-It defines constraints and on-chain behavior, not outcomes.
+Its purpose is to transform raw on-chain activity into an understandable system:
+- movements
+- constraints
+- accumulation
+- distribution
+- burn
+- participation patterns
 
-- Source: `contract/SolumToken.sol`
-- Technical notes: `contract/README.md`
+SolumWorld does not alter the system.  
+It observes it.
 
-### SolumWorld (observability layer)
-SolumWorld is a user-facing world/interface designed to make Solum legible:
-a coherent visual narrative built from on-chain facts.
-
-- Docs: `docs/solumworld/README.md`
-
-### SolumMap (territorial representation)
-SolumMap is the **map layer**: territory only.
-It visualizes the system’s “ground” and colonization dynamics.
-
-- Spec: `docs/solumworld/solummap.md`
-
-Note: treasury is not rendered inside SolumMap’s territory view; it belongs to SolumWorld metrics.
+Public documentation:
+- `docs/solumworld/`
 
 ---
 
-## Documentation map
+### 3) Aitopia — Cognitive & Interpretive Layer
+Aitopia represents the long-term conceptual horizon of Semina.
 
-- `docs/README.md` — full documentation index (table of contents)
-- `docs/architecture.md` — boundaries and structure
-- `docs/GENESIS.md` — founding constraints and rationale
-- `docs/abstract.md` — short conceptual summary
-- `docs/aitopi.md` — Aitopi interface definition (if present/used)
-- `docs/solumworld/` — SolumWorld + SolumMap
+It is not a deployed AI system at this stage.  
+It is the framework through which Semina’s data, constraints, and behavior may eventually be interpreted, learned from, and evolved.
 
----
-
-## What Semina is NOT
-
-Semina is not:
-- a promise of returns
-- a marketing funnel
-- a roadmap-driven product
-- a system that relies on continuous human intervention
-
-Semina is:
-- a constrained experiment
-- a public technical artifact
-- a set of rules that can be observed over time
+Aitopia does not control Solum.  
+It observes, contextualizes, and (in future phases) may learn from system behavior.
 
 ---
 
-## Official links
+## Design Principles
 
-- Web: https://www.aitopia.cloud  
-- Medium: https://medium.com/@semina.core  
-- X / Twitter: https://x.com/AiTopia_Cloud
+Semina explicitly prioritizes:
+- rule clarity over optimization
+- observability over opacity
+- stability over short-term efficiency
+- participation over speculation
+- coherence over speed
+
+There is intentionally:
+- no roadmap
+- no growth promises
+- no adaptive parameter tuning in early phases
+
+Uncertainty is not hidden.  
+It is treated as a first-class design condition.
+
+---
+
+## Development State
+
+Semina is currently in an early formative stage.
+
+- The Solum contract is stable and auditable
+- Documentation is evolving
+- SolumWorld is under active conceptual and technical development
+- Tooling, UX, and integrations are incomplete by design
+
+This is not presented as a weakness, but as a conscious choice to expose the system gradually and honestly.
+
+---
+
+## Official Sources (Informational)
+
+The following links are official channels. Some may currently contain minimal or early-stage content.  
+They are provided for transparency and reference, not as proof of maturity.
+
+- GitHub (canonical technical source):  
+  https://github.com/Semina-project/semina
+
+- Medium (conceptual writing):  
+  https://medium.com/@semina.core
+
+- Web (public-facing presence):  
+  https://www.aitopia.cloud
+
+- Twitter / X (announcements & updates):  
+  https://twitter.com/AiTopia_Cloud
+
+GitHub is the source of truth for all technical and contractual matters.
+
+---
+
+## Final Note
+
+Semina does not ask for belief.  
+It asks for understanding.
+
+Solum defines the rules.  
+SolumWorld makes them visible.  
+Aitopia defines the horizon.
+
+Everything else is left intentionally open.
