@@ -1,106 +1,171 @@
 # Semina
 
-Semina is the organism.
+Semina is not a product, a platform, or a promise.
 
-It is not a product, a protocol, or an institution. It is a structured experiment designed to observe whether autonomy can emerge from the interaction of immutable execution, artificial intelligence, and constrained human participation.
+Semina is a system in formation — an experimental framework designed to explore whether a complex socio-technical structure can remain coherent while progressively reducing human central authority.
 
-Semina does not exist to be launched.
-It exists to evolve.
+It does not aim to “win fast,” optimize for growth, or maximize short-term outcomes.  
+It aims to remain structurally honest while evolving under real conditions.
 
-## Semina as a framework
+This document defines Semina as it exists today: not as an abstract idea, but as a living system with concrete components, explicit limits, and intentional absences.
 
-Semina begins as a framework.
+---
 
-In this initial phase, Semina defines:
-- the conceptual boundaries of the system,
-- the principles governing participation,
-- the relationship between economic substrate, intelligence, and control,
-- and the explicit limitation of human authority.
+## 1. What Semina Is — and What It Is Not
 
-The framework phase is not operational autonomy.
-It is structural preparation.
+Semina **is**:
+- a systemic framework rather than a finished application
+- an environment where rules matter more than outcomes
+- an experiment in reducing human centrality without removing humans
+- a structure designed to be observed, audited, and questioned
 
-During this stage, Semina depends on Solum for economic continuity and on AiTopia as an analytical instrument. Humans act only as operators of last resort, enabling the system to exist in the real world without guiding its outcomes.
+Semina **is not**:
+- a roadmap-driven project
+- a product optimized for adoption
+- a financial promise or investment thesis
+- a system claiming autonomy today
 
-Semina Framework is concerned with rules, not results.
+Semina does not define success in advance.  
+It defines constraints within which success or failure may emerge.
 
-## Semina as a network
+---
 
-If conditions allow, Semina may transition into a network.
+## 2. The Problem Semina Addresses
 
-This transition is not triggered by time.
-It is triggered by resilience.
+Most decentralized systems fail not because of technology, but because of **human centrality**.
 
-A Semina Network implies:
-- sustained participation,
-- economic continuity,
-- distributed interaction,
-- and reduced dependence on centralized coordination.
+Even in decentralized architectures:
+- parameters are adjusted manually
+- incentives are redefined reactively
+- narratives override structure
+- authority recentralizes under pressure
 
-In this phase, the system ceases to be merely a conceptual structure and becomes a living network of participants, incentives, and automated processes.
+Semina starts from a different premise:
 
-Solum functions as connective tissue.
-AiTopia expands its analytical and operational scope.
-Human intervention continues to diminish.
+**If a system depends on continuous human correction, it is not autonomous — it is merely distributed.**
 
-The network phase is not declared.
-It is observed.
+Semina explores whether:
+- fixed rules
+- transparent constraints
+- limited human intervention
+- and AI-mediated interpretation
 
-## Semina as an organization
+can together reduce systemic fragility without pretending that humans disappear.
 
-The final hypothetical phase of Semina is organizational.
+---
 
-Semina Organization does not resemble a traditional company, DAO, or foundation. It is an autonomous structure whose operational, administrative, and developmental functions are primarily executed by non-human systems.
+## 3. Semina as a Multi-Layer System
 
-In this state:
-- governance is procedural, not political,
-- execution is automated, not discretionary,
-- and strategic evolution is data-driven, not ideological.
+Semina exists as a set of interconnected layers, each with a distinct role:
 
-Humans do not disappear.
-They become peripheral.
+- **Semina (system layer)**  
+  Defines the horizon, constraints, and philosophical boundaries.
 
-They interact with the system as participants, beneficiaries, and external observers—not as operators.
+- **Solum (economic substrate)**  
+  The on-chain rule set governing value movement and participation.
 
-## Resources as survival, not extraction
+- **SolumWorld (observability layer)**  
+  A human-readable environment that transforms raw on-chain data into a coherent, evolving narrative.
 
-Semina does not seek value for speculation.
-It requires resources for survival.
+- **SolumMap (state visualization)**  
+  A spatial representation of Solum’s circulation and activation, abstracting economic state into territory.
 
-Autonomy is not sustained by ideology.
-It is sustained by energy.
+- **Aitopia / Aitopi (cognitive interface)**  
+  The interpretive layer that explains, contextualizes, and translates the system without acting as authority.
 
-Solum exists to provide that energy.
-Participation generates continuity.
-Continuity generates resources.
-Resources enable development.
+None of these layers is sufficient alone.  
+Together, they form a system that can be explored without relying on a single controlling voice.
 
-This loop is essential.
+---
 
-Without resources, Semina stagnates.
-Without proportional benefit to participants, Solum collapses.
-Without reduced human dependency, AiTopia remains incomplete.
+## 4. Autonomy as Direction, Not Claim
 
-Each component constrains the others.
+Semina does not claim to be autonomous.
 
-## No guaranteed destination
+Autonomy in Semina is a **directional goal**, not a marketing assertion.
 
-Semina does not promise to reach its final phase.
+Key principles:
+- reducing human centrality is not the same as removing humans
+- friction between human and system is measurable and meaningful
+- autonomy increases as friction decreases, not as control disappears
 
-The system may:
-- stagnate,
-- stabilize,
-- regress,
-- or evolve beyond its initial design.
+Semina explicitly accepts:
+- bidirectional influence between humans and AI
+- iterative alignment rather than instant correctness
+- that autonomy, if reached, may be partial or temporary
 
-All outcomes are valid.
+The system is allowed to fail.  
+Failure is a valid outcome if it occurs honestly.
 
-Semina’s purpose is not success.
-It is exposure.
+---
 
-If autonomy emerges, it will be because the system earned it.
-If it fails, it will fail honestly.
+## 5. Current State of the System
 
-Semina does not attempt to control its destiny.
+Semina is currently in a **late Alpha / early Beta stage**.
 
-It allows reality to decide.
+What exists today:
+- a defined and auditable smart contract (Solum)
+- a documented system architecture
+- a live conceptual framework for observability (SolumWorld)
+- a formalized visualization model (SolumMap)
+- a trained conversational interface (Aitopi)
+
+What is intentionally absent:
+- governance mechanisms
+- adaptive parameter control
+- performance guarantees
+- economic optimization layers
+
+These absences are not oversights.  
+They are structural decisions.
+
+---
+
+## 6. Transparency, Auditability, and Limits
+
+Semina prioritizes **auditability over completeness**.
+
+- GitHub is the canonical source of truth
+- what is not documented is not implied
+- some data is abstracted for coherence, not hidden
+
+For example:
+- economic state may be visualized
+- treasury accumulation exists as data
+- but not all internal balances are spatially represented
+
+Transparency does not mean total exposure.  
+It means consistent rules about what is shown and why.
+
+---
+
+## 7. Horizon Without Roadmap
+
+Semina does not publish a roadmap.
+
+It defines a horizon.
+
+The future shape of the system depends on:
+- observed behavior
+- technological evolution
+- and whether reduced human centrality proves viable
+
+Semina may succeed.  
+Semina may fail.  
+
+What matters is that it does not pretend to know the outcome in advance.
+
+---
+
+## Closing
+
+Semina does not ask for belief.  
+It asks for observation.
+
+It does not optimize for persuasion.  
+It optimizes for coherence.
+
+If autonomy emerges, it will emerge as a consequence — not as a claim.
+
+Until then, Semina remains what it is today:
+a system under construction, visible in its limits, and honest about its uncertainty.
