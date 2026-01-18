@@ -1,135 +1,197 @@
-# Semina
-*A long-term experiment in autonomous systems.*
+# SEMINA
 
-Semina is not a product.  
-It is not a protocol.  
-It is not a promise.
-
-Semina is an experiment.
-
-An attempt to observe how far autonomy can be extended
-when human intervention is progressively reduced.
-
-No roadmap is guaranteed.  
-No outcome is assumed.  
-Only direction.
+> A system designed to be inhabited,  
+> not sold.
 
 ---
 
-## An experiment, not a thesis
+## ⟡ What Semina Is
 
-Most systems are designed backwards:
-they begin with goals, governance, incentives, and control.
+Semina is **not** a product.  
+It is **not** a roadmap.  
+It is **not** a promise of returns.
 
-Semina begins with none of those.
+**Semina is an experiment.**
 
-It begins with a question:
+An attempt to design a coherent system that can remain viable over time  
+while progressively reducing human centrality.
 
-**What happens if a system is allowed to grow toward autonomy
-instead of being forced into it?**
-
----
-
-## The trajectory
-
-Semina follows a simple but demanding path:
-
-**Framework → Network → Organization**
-
-- **Semina Framework**  
-  The conceptual and structural foundation.
-
-- **Semina Network**  
-  Emergent coordination between autonomous components.
-
-- **Semina Org**  
-  A hypothetical end state:
-  a self-sustaining autonomous organization.
-
-Whether this trajectory is achievable
-depends entirely on technology, resources, and time.
-
-There are no guarantees.
+It defines a **horizon**, not a path.
 
 ---
 
-## Three foundational elements
+## ⟡ Design Principles
 
-Semina exists through the interaction of three components.
+Semina is built around a small set of non-negotiable priorities:
 
-### Semina
-The system itself.  
-Its structure, direction, and long-term intent.
+- **Coherence over speed**
+- **Habitability over valuation**
+- **Accessibility over early optimization**
+- **Direction over control**
 
-### AiTopia
-The non-human intelligence layer.  
-It begins as a tool and aspires to become the primary cognitive
-and operational core of the system.
-
-### Solum
-The economic substrate.  
-The minimal ground layer that enables participation,
-resource flow, and long-term sustainability.
-
-→ **Technical entry:**  
-[Solum — Phase 1 (Practical Overview)](https://semina-project.github.io/semina/docs/solum-token-phase-1.html)
-
-Each component can exist independently.  
-None is meaningful in isolation.
+If a design decision violates one of these,
+the decision is rejected.
 
 ---
 
-## What Semina is not
+## ⟡ What Exists Today
 
-Semina deliberately rejects familiar structures.
-
-It is not:
-- a traditional DAO
-- a community-governed project
-- a startup or short-term venture
-- an investment thesis
-
-Participation does not imply control.  
-Ownership does not imply authority.
+Semina currently operates as a layered system.
+Each layer has a clear role.
+No layer tries to do everything.
 
 ---
 
-## Documentation
+### ▢ Solum  
+**Economic substrate**
 
-This site hosts the conceptual documentation of Semina.
+Solum is the on-chain unit of participation and space.
 
-All documents are written as part of an ongoing observation
-and are intended to be read sequentially.
+It does not represent ownership in the traditional sense.
+It represents the right to **inhabit**, **participate**, and **shape territory**.
 
-### Start here
-- [Abstract](https://semina-project.github.io/semina/docs/abstract.html)
-- [Genesis](https://semina-project.github.io/semina/docs/GENESIS.html)
+Early Solum design intentionally prioritizes:
+- low entry cost
+- broad accessibility
+- colonization before valuation
 
-### System components
-- [Semina](https://semina-project.github.io/semina/docs/semina.html)
-- [AiTopia](https://semina-project.github.io/semina/docs/aitopia.html)
-- [Solum — Phase 1](https://semina-project.github.io/semina/docs/solum-token-phase-1.html)
-
-### Architecture & mechanics
-- [Architecture](https://semina-project.github.io/semina/docs/architecture.html)
-- [Solum Contract](https://semina-project.github.io/semina/docs/solum-contract.html)
+Solum behavior is defined by code, not narrative.
 
 ---
 
-## Status
+### ▢ SolumMap  
+**Analytical interface**
 
-Semina is in an early formative stage.
+SolumMap visualizes the global state of the system.
 
-The system is alive,
-but incomplete.
+It shows:
+- density
+- distribution
+- activity patterns
+- large-scale behavior
 
-Its evolution is expected to be slow.
+SolumMap is **not designed to be beautiful**.
+It is designed to be **readable**.
 
-Time is not a constraint.  
-It is a feature.
+Most users will only need it occasionally.
 
-*Semina does not ask for belief.  
-It only asks to be observed.*
+That is intentional.
 
-This site is open source.  
-[Improve this page](https://github.com/Semina-project/semina/edit/main/index.md)
+---
+
+### ▢ Wallet View  
+**Local perspective**
+
+Wallet View shifts scale from global to personal.
+
+It allows any wallet to be located and explored as territory.
+
+Key characteristics:
+- automatic scale adaptation
+- zoom based on territory size
+- no artificial limits imposed on perception
+
+Here, Solum stops being abstract.
+
+Here, territory becomes **place**.
+
+---
+
+### ▢ SolumWorld  
+**Experiential layer**
+
+SolumWorld is where lived experience may emerge.
+
+It is intentionally separated from SolumMap:
+- analysis and experience do not compete
+- abstraction and life remain distinct
+
+Looking at a system  
+is not the same as living inside it.
+
+---
+
+## ⟡ What Does *Not* Exist Yet
+
+Semina does **not** currently have:
+
+- a finalized governance model  
+- autonomous decision-making AI  
+- economic equilibrium  
+- guarantees of adoption  
+- a defined end state  
+
+These absences are **explicit**.
+
+Some elements are intentionally left undecided,
+because defining them too early would lock the system
+into assumptions that may not survive time.
+
+Uncertainty is not hidden.  
+It is acknowledged.
+
+---
+
+## ⟡ Transparency & Curiosity
+
+All relevant on-chain data is public.
+
+Semina does not:
+- restrict observation
+- discourage analysis
+- hide system behavior
+
+Curiosity is expected.
+
+Participants are encouraged to:
+- explore
+- compare
+- question
+- disengage if they choose
+
+Semina does not demand belief.
+
+---
+
+## ⟡ What This Repository Is
+
+This repository is the **source of truth** for:
+
+- conceptual foundations
+- design constraints
+- technical references
+- interface experiments
+- explanatory material
+
+It is **not**:
+- marketing
+- an investment guide
+- a roadmap
+
+It is documentation of a system
+that is still becoming.
+
+---
+
+## ⟡ Status
+
+Semina is early.  
+Semina is incomplete.
+
+Everything here may evolve,
+but changes will always be:
+- documented
+- explained
+- constrained by the same principles
+
+Semina does not rush.
+
+It waits until change is honest.
+
+---
+
+> Semina defines a horizon.  
+>  
+> What grows toward it  
+> depends on time, technology,  
+> and how people choose to inhabit the system.
