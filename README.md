@@ -1,140 +1,121 @@
 # Semina
 
-Semina is a long-term experiment in building autonomous systems where rules matter more than operators.
+Semina is an early-stage experiment: a framework for building long-lived systems that remain coherent while progressively reducing human centrality.
 
-It is not a product.
-It is not a promise.
-It is an environment.
-
-This repository is the **canonical public source** for all documented elements of the Semina ecosystem.
-
----
-
-## Project status
-
-Semina is currently in **early Alpha / Beta**, with controlled exposure.
-
-This means:
-- active development
-- evolving documentation
-- intentional constraints
-- no guarantees of outcome
-
-This is not a failure state.
-It is a deliberate design decision.
+This repository is intentionally **technical and minimal**:
+- The **contract** is the source of truth.
+- The **docs** explain constraints, boundaries, and intent.
+- No marketing. No promises. No roadmap. Only a horizon.
 
 ---
 
-## Ecosystem overview
+## Status
 
-Semina is structured in layers:
+Semina is in **Alpha / early Beta** by design.
 
-### 1. Semina — the system
-The conceptual and architectural foundation.
+What this means:
+- controlled exposure
+- evolving surfaces
+- incomplete UX in some areas
+- concepts and structure documented openly
 
-Semina defines how decentralized systems, AI processes, and human participation can coexist over time with minimal discretionary control.
-
-It focuses on persistence, constraints, and observability rather than optimization or speed.
+What does **not** change during early stages:
+- the canonical technical reference lives here on GitHub
+- the Solum contract and its early-phase rules are treated as stable
 
 ---
 
-### 2. Solum — the ground
+## Canonical sources (priority order)
+
+1) **GitHub (this repo)** — canonical technical source  
+   The contract, parameters, and documented invariants live here.
+
+2) **Medium** — canonical conceptual narrative (interpretation, not authority)  
+   https://medium.com/@semina.core
+
+3) **X / Twitter** — public updates (informational, not normative)  
+   https://x.com/AiTopia_Cloud
+
+4) **Web** — evolving public surface  
+   https://www.aitopia.cloud
+
+Rule: if anything conflicts, **GitHub prevails** for technical truth.
+
+---
+
+## Start here (recommended reading order)
+
+1) **Architecture**  
+   `docs/architecture.md`
+
+2) **Genesis**  
+   `docs/GENESIS.md`
+
+3) **Abstract**  
+   `docs/abstract.md`
+
+4) **Solum (contract + notes)**  
+   `contract/SolumToken.sol`  
+   `contract/README.md`
+
+5) **SolumWorld (observability layer)**  
+   `docs/solumworld/README.md`
+
+---
+
+## Components
+
+### Solum (token contract)
 Solum is the economic substrate of Semina.
+It defines constraints and on-chain behavior, not outcomes.
 
-It is a fixed-rule token contract designed to behave predictably from launch.
-Solum does not optimize for price or sentiment.
-It defines the rules under which value can enter, move, and exit the system.
+- Source: `contract/SolumToken.sol`
+- Technical notes: `contract/README.md`
 
-At this stage:
-- the Solum contract is **defined and frozen**
-- it has been **audited**
-- it is intended to be deployed on **Base**, paired with **WETH** via **Uniswap V2**
-- it is **not yet deployed** until the explicit launch event
+### SolumWorld (observability layer)
+SolumWorld is a user-facing world/interface designed to make Solum legible:
+a coherent visual narrative built from on-chain facts.
 
-Once deployed, the contract rules apply equally to all participants.
+- Docs: `docs/solumworld/README.md`
 
----
+### SolumMap (territorial representation)
+SolumMap is the **map layer**: territory only.
+It visualizes the system’s “ground” and colonization dynamics.
 
-### 3. SolumWorld — on-chain civilization
-SolumWorld is a transparency and interpretation layer.
+- Spec: `docs/solumworld/solummap.md`
 
-It treats Solum as a living terrain:
-- Solum is the ground
-- wallets are colonists
-- liquidity, treasury, and burn are visible structures
-- history is cumulative and readable
-
-SolumWorld is currently in **genesis phase**:
-- publicly documented
-- privately developed
-- no live infrastructure yet
-
-Its purpose is not speculation, but understanding.
+Note: treasury is not rendered inside SolumMap’s territory view; it belongs to SolumWorld metrics.
 
 ---
 
-## Canonical sources
+## Documentation map
 
-Semina recognizes the following sources, in strict priority order:
-
-1. **GitHub (this repository)**  
-   Technical and documentary source of truth.  
-   Code, contracts, and public design documents live here.
-
-2. **Medium — Semina Core**  
-   Conceptual explanations and system rationale.  
-   Medium does not override the contract.
-
-3. **X / Twitter**  
-   Public communication and announcements.  
-   Informational only, not normative.
-
-4. **Web**  
-   Public-facing surface, evolving with the project.  
-   Summarizes, but does not define.
-
-Rule:
-If something is not written in GitHub or Medium, it is not treated as a promise.
+- `docs/README.md` — full documentation index (table of contents)
+- `docs/architecture.md` — boundaries and structure
+- `docs/GENESIS.md` — founding constraints and rationale
+- `docs/abstract.md` — short conceptual summary
+- `docs/aitopi.md` — Aitopi interface definition (if present/used)
+- `docs/solumworld/` — SolumWorld + SolumMap
 
 ---
 
-## Key documents
+## What Semina is NOT
 
-### Genesis and structure
-- Genesis: https://github.com/Semina-project/semina/tree/main/docs
-- Semina overview: https://medium.com/@semina.core
+Semina is not:
+- a promise of returns
+- a marketing funnel
+- a roadmap-driven product
+- a system that relies on continuous human intervention
 
-### Solum
-- Solum phase 1 overview: https://github.com/Semina-project/semina/blob/main/docs/solum-token-phase-1.md
-- Solum contract (frozen): https://github.com/Semina-project/semina/blob/main/contract/SolumToken.sol
-
-### SolumWorld
-- SolumWorld documentation: https://github.com/Semina-project/semina/tree/main/docs/solumworld
-
----
-
-## What “launch” means in Semina
-
-For Solum, launch means only this:
-
-- the contract is deployed
-- initial liquidity is seeded (≈ 100 USD equivalent in ETH)
-- the Uniswap V2 pool is opened
-
-There are:
-- no hidden phases
-- no discretionary switches
-- no post-launch tuning
-
-From that moment, the system behaves exactly as coded.
+Semina is:
+- a constrained experiment
+- a public technical artifact
+- a set of rules that can be observed over time
 
 ---
 
-## Disclaimer
+## Official links
 
-This project is experimental.
-Crypto systems involve risk.
-Nothing here constitutes financial advice.
-
-Semina does not promise outcomes.
-It defines constraints.
+- Web: https://www.aitopia.cloud  
+- Medium: https://medium.com/@semina.core  
+- X / Twitter: https://x.com/AiTopia_Cloud
