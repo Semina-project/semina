@@ -1,133 +1,187 @@
 # SolumMap
 
-SolumMap is the graphical and spatial representation of Solum activity inside the Semina ecosystem.
+SolumMap is the graphical and semantic representation of Solum territory.
+It is not a dashboard, not a metrics panel, and not a UI for financial data.
+SolumMap exists to visualize the state of land inside the Semina ecosystem.
 
-It is not an economic engine, a control layer, or a behavioral mechanism.
-SolumMap does not influence Solum.
-It observes, aggregates, and reconstructs on-chain activity into a coherent territorial state.
-
-SolumMap exists to make the system legible, not to modify it.
-
----
-
-## Conceptual role
-
-SolumMap represents Solum as territory.
-
-- Solum inside the liquidity pool is considered **inactive terrain**.
-  It represents uncolonized, inert land — available but not yet alive.
-
-- Solum held by wallets outside the pool is considered **active territory**.
-  It represents colonized land that participates in the ecosystem’s life cycle.
-
-The map does not assign moral value to actions.
-Selling, transferring, or holding Solum are all neutral system behaviors.
-
-SolumMap does not judge.
-It reflects.
+It represents Solum as territory.
+Nothing more. Nothing less.
 
 ---
 
-## Activation and deactivation states
+## Core Concept
 
-Solum follows a simple state model:
+SolumMap displays the entire Solum territory as a finite, shared surface.
 
-- **Inactive Solum**  
-  Solum residing in the liquidity pool.
-  This is dormant terrain, not yet expressing life or structure.
+- Total surface: 100 trillion square meters (100T m²)
+- Each unit represents 1 m² of Solum
+- The map is deterministic and global
+- The map evolves over time based on on-chain activity
 
-- **Active Solum**  
-  Solum held by wallets.
-  This terrain becomes expressive and contributes to the visible state of the map.
-
-When Solum exits the pool, it becomes active.
-When Solum returns to the pool, it becomes inactive again.
-
-This is a structural property, not an interpretation.
+SolumMap does not represent value, price, or performance.
+It represents **state**.
 
 ---
 
-## Burn, redistribution, and return flows
+## Territory States
 
-When Solum is sold or transferred, multiple outcomes may occur at the protocol level:
-- A portion may be burned.
-- A portion may be redistributed to other holders.
-- A portion may return to the liquidity pool.
-- A portion may be allocated to treasury mechanisms.
+Solum exists in different states depending on its position in the system.
 
-SolumMap does not represent these actions as “good” or “bad”.
-They are simply transformations of state.
+### 1. Dormant Territory (Liquidity Pool)
 
-Burned Solum is interpreted as **permanently fertile terrain**.
-Redistributed Solum expands active territory among other participants.
-Returned Solum increases the availability of inactive land.
+Solum held inside the liquidity pool is considered **dormant land**.
 
----
+- It is inactive
+- It is infertile
+- It represents uncolonized territory
+- It is always available for future colonization
 
-## Treasury exclusion
-
-Solum allocated to treasury mechanisms is **intentionally not represented** in SolumMap.
-
-This exclusion is structural, not opaque.
-
-Treasury represents stored economic resources, not inhabitable territory.
-All treasury data remains publicly auditable on-chain and through SolumWorld,
-but it is excluded from SolumMap to preserve territorial coherence.
-
-SolumMap represents land.
-Treasury represents reserves.
+The liquidity pool is the reserve of unused land.
 
 ---
 
-## Time, aggregation, and coherence
+### 2. Active Territory (Wallets)
 
-SolumMap is **not a strict real-time visualization**.
+Solum held by wallets becomes **active land**.
 
-Individual transactions do not immediately or directly alter visible terrain.
-Instead, SolumMap operates on aggregated on-chain data over defined time windows.
+- It is colonized
+- It can evolve
+- It reflects the history and behavior of its holder
+- It changes state over time
 
-This design choice is intentional:
-
-- To prevent visual noise and incoherent oscillations.
-- To ensure that territorial changes feel stable and interpretable.
-- To align user perception with structural system behavior, not momentary volatility.
-
-The map reconstructs state.
-It does not react impulsively.
+Wallets are settlers.
+Their land reflects participation, persistence, and interaction.
 
 ---
 
-## Determinism and neutrality
+### 3. Transformed Territory (Burn)
 
-SolumMap is deterministic.
+Burned Solum is permanently transformed.
 
-Given the same on-chain data and the same aggregation rules,
-the map will always resolve to the same state.
+- It leaves circulation
+- It becomes fertile land
+- It represents irreversible contribution to the system
+- It increases overall environmental richness
 
-There are:
-- No discretionary rules
-- No adaptive behaviors
-- No subjective interpretations
-
-SolumMap is not alive.
-It represents life.
+Burn is not destruction.
+It is transformation.
 
 ---
 
-## Relationship to SolumWorld
+## Wallets as Settlements
 
-SolumMap is a component of SolumWorld.
+Wallets are represented as settlements on the map.
 
-SolumWorld may display metrics, narratives, and real-time indicators.
-SolumMap remains focused exclusively on territorial state.
+Their form and evolution depend on:
 
-Together, they allow users to understand:
-- What exists
-- Where it exists
-- How it evolves
+- Amount of Solum held
+- Duration of holding
+- Interaction frequency
+- Historical behavior
 
-Without requiring belief, trust, or interpretation.
+Possible representations include:
 
-SolumMap shows the land.
-Nothing more.
-Nothing less.
+- Fields
+- Farms
+- Villages
+- Cities
+
+There is no moral judgment.
+Selling, transferring, or holding are all valid actions.
+
+---
+
+## Technical Execution Model
+
+SolumMap is built as a deterministic visualization layer on top of blockchain data.
+
+### Data Source
+
+- Primary source: Solum smart contract events
+- Secondary source: indexed blockchain state
+- No off-chain interpretation of meaning
+- No manual overrides
+
+All map transformations are derived from verifiable on-chain data.
+
+---
+
+### Indexing Layer
+
+SolumMap relies on an indexing process that:
+
+- Processes transfers, burns, and liquidity movements
+- Aggregates state changes per wallet and per territory unit
+- Produces periodic snapshots of the global land state
+
+This layer is designed to be:
+
+- Stateless between snapshots
+- Reproducible from genesis
+- Verifiable by third parties
+
+---
+
+### Rendering Model
+
+The map is rendered from snapshots, not live transactions.
+
+- Each snapshot represents a coherent world state
+- Visual changes are applied atomically
+- No partial or intermediate states are shown
+
+This avoids visual noise and preserves narrative continuity.
+
+---
+
+### Update Cadence
+
+SolumMap is not rendered in real time.
+
+To preserve coherence and user experience:
+
+- Updates occur at fixed intervals
+- Rapid on-chain oscillations are smoothed
+- Large state changes are aggregated
+
+The objective is interpretability, not immediacy.
+
+---
+
+### Scalability Considerations
+
+The system is designed to scale with activity:
+
+- Snapshot frequency is configurable
+- Rendering resolution adapts to zoom level
+- Historical states can be replayed or compared
+
+High activity increases richness, not instability.
+
+---
+
+## What SolumMap Does Not Show
+
+SolumMap deliberately excludes:
+
+- Treasury balances
+- Financial metrics
+- Real-time transaction feeds
+- Price data
+
+These elements are transparent and accessible,
+but they belong to **SolumWorld**, not SolumMap.
+
+---
+
+## Purpose
+
+SolumMap exists to:
+
+- Provide a shared, intuitive mental model
+- Turn abstract blockchain data into visible territory
+- Allow observation without speculation
+- Make system evolution understandable over time
+
+SolumMap is land.
+SolumWorld is the world built on top of it.
