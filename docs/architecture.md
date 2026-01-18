@@ -1,159 +1,115 @@
 # Semina — System Architecture
 
-## 1. Purpose of the Architecture
+This document describes the high-level architecture of the Semina ecosystem.
 
-Semina is designed as a rule-based ecosystem whose primary objective is persistence rather than optimization.
-
-This architecture does not exist to maximize short-term efficiency, adoption speed, or economic performance.  
-It exists to define a **stable structural environment** in which decentralized systems, smart contracts, and autonomous processes can operate without continuous human intervention.
+Semina is not a monolithic application.
+It is a layered system where each component has a clearly defined role and scope.
 
 The architecture prioritizes:
-- clarity over flexibility  
-- constraints over acceleration  
-- observability over abstraction  
-
-Semina is intentionally exposed in an unfinished but coherent state.  
-The architecture reflects that condition directly, without concealment.
+- Separation of concerns
+- Auditability
+- Predictable behavior
+- Long-term coherence over short-term optimization
 
 ---
 
-## 2. Core Structural Principles
+## Architectural Overview
 
-Semina is built around the following non-negotiable principles:
+Semina is composed of three primary layers:
 
-### 2.1 Rule Primacy
-All meaningful behavior is governed by explicit, codified rules.  
-No discretionary control layer exists once rules are deployed.
+1. Economic Layer — Solum
+2. Conceptual and Cognitive Layer — Aitopia
+3. Observational and Representational Layer — SolumWorld
 
-### 2.2 Predictability Over Adaptability
-The system favors fixed behavior over reactive adjustment.  
-Change is structural, not responsive.
+Each layer operates independently but remains structurally aligned with the others.
 
-### 2.3 Equal Treatment
-All participants interact with the same rules, limits, and constraints.  
-There are no privileged execution paths.
-
-### 2.4 Transparency Without Total Exposure
-What is public is fully visible.  
-What is internal is not simulated or implied.
+No layer has implicit authority over the system as a whole.
 
 ---
 
-## 3. System Layers
+## 1. Economic Layer — Solum
 
-Semina is composed of distinct but interdependent layers.
+Solum is the on-chain economic substrate of Semina.
 
-Each layer has a clear responsibility and does not substitute the function of another.
+Its responsibilities are strictly limited to:
+- Enforcing fixed economic rules
+- Managing token transfers, limits, and taxes
+- Operating without discretionary control after deployment
 
----
+Solum does not:
+- Adapt behavior based on external signals
+- Optimize for price or volume
+- Provide governance shortcuts
 
-### 3.1 On-chain Layer
-
-This layer consists of blockchain infrastructure and deployed smart contracts.
-
-Characteristics:
-- deterministic execution
-- immutable logic once deployed
-- permissionless interaction
-
-The on-chain layer is the **source of truth** for all enforceable rules.
+All enforceable behavior is defined at contract level.
+Anything not present in the contract does not exist operationally.
 
 ---
 
-### 3.2 Economic Layer — Solum
+## 2. Conceptual and Cognitive Layer — Aitopia
 
-Solum is the economic substrate of Semina.
+Aitopia represents the conceptual horizon of the system.
 
-It defines:
-- how value enters the system
-- how it moves
-- how it exits
-- what frictions apply during interaction
+Its role is to:
+- Articulate meaning, intent, and interpretation
+- Translate system behavior into human-understandable context
+- Evolve narratives without altering execution
 
-Solum does not optimize for price behavior.  
-It enforces constraints.
+Aitopia has no direct control over Solum.
+It does not modify contracts, parameters, or on-chain behavior.
 
-Limits, taxes, and transfer rules exist to:
-- reduce early dominance
-- slow extraction
-- encourage gradual distribution
-- protect the system while liquidity is fragile
-
-Solum is not adaptive.  
-Its behavior is fixed by contract logic.
+It is a descriptive and interpretive layer, not an authoritative one.
 
 ---
 
-### 3.3 Observability Layer — SolumWorld
+## 3. Observational Layer — SolumWorld
 
-SolumWorld is an interpretive and observational layer.
+SolumWorld is the system’s observational interface.
 
-Its role is not to modify behavior, but to **make system activity legible**.
+It is responsible for:
+- Representing on-chain activity visually
+- Transforming raw blockchain data into coherent structures
+- Providing transparency through interpretation, not abstraction
 
-SolumWorld:
-- visualizes on-chain activity
-- represents participants as actors within a shared environment
-- exposes flows, balances, and transformations over time
+SolumWorld does not alter economic behavior.
+It reflects it.
 
-This layer provides transparency without intervention.  
-It does not influence execution.
-
----
-
-### 3.4 Interface Layer — Aitopi / Aitopia
-
-This layer mediates human interaction with the system.
-
-**Aitopi**
-- conversational interface
-- explains public rules and structure
-- does not persuade or promote
-- does not expose internal reasoning
-
-**Aitopia**
-- public communication surface
-- distributes announcements and updates
-- does not define rules
-
-Neither interface alters system behavior.
+Some data may be intentionally represented at different temporal resolutions to preserve usability without hiding information.
 
 ---
 
-## 4. Immutability vs Evolution
+## Authority and Control Model
 
-Semina distinguishes between what is fixed and what may evolve.
+Semina deliberately avoids centralized control points.
 
-**Fixed:**
-- deployed smart contracts
-- economic constraints encoded on-chain
-- enforcement mechanisms
+- No layer can override another
+- No emergency switches exist for narrative correction
+- No hidden administrative hierarchy is assumed
 
-**Evolving:**
-- interpretation
-- tooling
-- visualization
-- surrounding infrastructure
-
-Evolution occurs around the system, not inside its rules.
+Authority is expressed only through code execution.
 
 ---
 
-## 5. What This Architecture Does Not Do
+## Evolution Without Roadmap
 
-This architecture explicitly does not:
-- promise outcomes
-- guarantee returns
-- optimize for speculation
-- react to market sentiment
-- provide protective intervention
+The architecture is designed to remain valid as the system evolves.
 
-Semina defines conditions, not results.
+New components may emerge.
+Existing layers may gain complexity.
+
+However:
+- Core separation principles remain unchanged
+- Economic execution remains deterministic
+- Conceptual evolution never overrides on-chain truth
 
 ---
 
-## Closing Note
+## Design Constraint Summary
 
-Semina does not define a path.  
-It defines a terrain.
+Semina accepts the following constraints by design:
+- Reduced adaptability in exchange for predictability
+- Slower evolution in exchange for coherence
+- Explicit uncertainty instead of implied certainty
 
-Understanding the architecture means understanding the constraints under which all future behavior occurs.
+These constraints are not temporary.
+They are foundational.
