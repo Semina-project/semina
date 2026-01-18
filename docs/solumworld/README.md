@@ -1,106 +1,152 @@
 # SolumWorld
 
-SolumWorld is the public-facing web platform that visualizes Solum as a living on-chain environment: **the terrain**, the **colony**, and the **history** of its evolution.
+**SolumWorld** is the on-chain observability layer of the Semina ecosystem.
 
-This documentation is intentionally **audit-friendly**:
-- it defines what SolumWorld is (and is not),
-- how it maps on-chain events into a coherent world,
-- and where to find the canonical sources of truth.
+It is not a protocol, not a contract, and not a governance system.
+SolumWorld exists to **observe, interpret, and narrate** what is already happening
+on-chain through Solum, without modifying or influencing it.
 
-> Implementation note: the SolumWorld codebase is being developed in a **private repository** at this stage.  
-> This public repo remains the **canonical documentation + contract reference**.
-
----
-
-## What SolumWorld is
-
-SolumWorld turns on-chain facts into a visual narrative:
-- the **pool** is represented as the available “inactive terrain” (uncultivated / infertile ground),
-- circulating Solum becomes “active territory” held by colonists (wallets),
-- burns and other structural flows become visible changes over time (fertility, recovery, growth),
-- the system remains **neutral**: actions are not moralized. They are interpreted as dynamics.
-
-SolumWorld exists to provide:
-- transparency,
-- observability,
-- and a user-facing way to understand Solum without needing explorers or raw logs.
+SolumWorld turns raw blockchain activity into a readable, structured,
+and evolving representation of the system’s state.
 
 ---
 
-## SolumMap vs SolumWorld
+## What SolumWorld Is
 
-### SolumWorld (platform)
-A full product surface:
-- dashboards, narratives, UX layers, optional “live” metrics
-- explanations and guided interpretation
-- multiple views (overview + deep dives)
+SolumWorld is:
 
-### SolumMap (map-only visualization)
-A dedicated map layer:
-- shows *only the territory* and its transformations
-- can support zoom levels and time-based snapshots
-- is designed to remain readable and coherent (not chaotic)
+- A **web-based platform** built on top of public blockchain data
+- A **visual and analytical layer** that translates Solum activity into meaning
+- A **historical and live record** of how the system evolves over time
+- A **transparency tool** designed for users, developers, and auditors
 
-SolumMap is a **representation**, not a game.  
-It must remain faithful to on-chain reality while presenting changes in a way that humans can follow.
+SolumWorld does **not** introduce new rules.
+It reflects existing ones.
 
 ---
 
-## Design principles
+## What SolumWorld Is Not
 
-1) **On-chain truth first**  
-SolumWorld is derived from blockchain data. If a state cannot be computed from chain data, it must be marked as an assumption or excluded.
+SolumWorld is **not**:
 
-2) **Audit posture**  
-Everything important should be explainable from:
-- the contract code,
-- public docs in this repo,
-- and publicly released articles.
+- A smart contract
+- A protocol extension
+- A governance mechanism
+- A yield optimizer
+- A decision-making system
 
-3) **Neutral interpretation**  
-Buying, selling, transferring, holding: none of these are “good” or “bad” by default. They are system dynamics.
+SolumWorld has **no control** over Solum.
 
-4) **Coherent UX over raw realtime chaos**  
-SolumWorld may show realtime metrics when it improves understanding.  
-SolumMap must prioritize readability: updates can be batched (e.g., snapshots) so the map remains stable and meaningful at each zoom level.
+It cannot:
+- Change parameters
+- Influence transactions
+- Block actions
+- Protect users
+- Optimize outcomes
 
----
-
-## Document index
-
-- **SolumMap (concept + mapping rules)**  
-  `docs/solumworld/solummap.md`
-
-- **SolumWorld (foundational concept)**  
-  `docs/solumworld/solumworld_onchain_civilization.md`  
-  (If this file does not exist yet, it is the intended canonical home for the concept.)
-
-- **System architecture (Semina-wide)**  
-  `docs/architecture.md`
-
-- **Solum contract (source of truth)**  
-  `contract/SolumToken.sol`
+Everything it shows already exists on-chain.
 
 ---
 
-## Official links (informational)
+## Relationship with Semina
 
-These links are provided for transparency and discovery.  
-Some may be minimal or under construction during early stages.
+Semina defines the **system**.
+Solum defines the **economic rules**.
+SolumWorld defines the **readable surface**.
 
-- X (Twitter): `@AiTopia_Cloud`
-- Medium: `https://medium.com/@semina.core`
-- Web: `https://www.aitopia.cloud`
+SolumWorld sits *above* execution, not inside it.
+
+Its purpose is to reduce opacity, not to increase control.
 
 ---
 
-## Status
+## SolumWorld and SolumMap
 
-SolumWorld is in early active development.
-Documentation evolves openly; implementation ships progressively under controlled exposure.
+SolumWorld contains multiple representations.
+One of them is **SolumMap**.
 
-If you are reviewing this as a developer:
-- start from `docs/architecture.md`,
-- then read `contract/SolumToken.sol`,
-- then return here for SolumWorld and SolumMap mapping rules.
-```0
+- **SolumWorld** is the platform
+- **SolumMap** is a graphical representation of Solum activity
+
+SolumMap translates Solum supply states, wallet behavior, and token flows
+into a territorial and historical map.
+
+This map is symbolic, not metaphorical.
+Every visual change corresponds to real on-chain data.
+
+---
+
+## Data Philosophy
+
+SolumWorld only uses:
+
+- Public blockchain data
+- Deterministic transformations
+- Explicit, documented rules
+
+If something cannot be derived from the chain, it is not displayed.
+
+There are no hidden heuristics.
+There are no private signals.
+There is no subjective scoring.
+
+Interpretation is visual.
+Data remains factual.
+
+---
+
+## Real-Time vs. Coherent Time
+
+SolumWorld does not aim to display every on-chain change instantly.
+
+Instead, it prioritizes:
+- Coherence
+- Readability
+- Historical continuity
+
+Data may be batched, smoothed, or updated in intervals to preserve
+a meaningful user experience.
+
+This is a design decision, not a limitation.
+
+---
+
+## Transparency and Auditability
+
+SolumWorld is designed so that:
+
+- A developer can verify data sources
+- An auditor can trace representations back to the chain
+- An AI system can analyze the repository and reach consistent conclusions
+
+Nothing in SolumWorld requires trust.
+Only verification.
+
+---
+
+## Current Status
+
+SolumWorld is under active development.
+
+- The concept is public
+- The architecture is being refined
+- Implementation details may evolve
+
+This repository documents **what exists**, not what is promised.
+
+There is no roadmap.
+Only a horizon.
+
+---
+
+## Why SolumWorld Exists
+
+SolumWorld exists because:
+
+- Raw blockchain data is unreadable to most humans
+- Transparency without interpretation is ineffective
+- Systems need memory, not just execution
+
+SolumWorld does not tell users what to do.
+
+It shows them **what is happening**.
